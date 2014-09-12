@@ -1,0 +1,3089 @@
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/a
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.NiePaoPao.a extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 78):
+  + Class [com/example/NiePaoPao/a]
+  + Class [java/lang/Object]
+  + Fieldref [com/example/NiePaoPao/a.a I]
+  + Fieldref [com/example/NiePaoPao/a.b I]
+  + Fieldref [com/example/NiePaoPao/a.c I]
+  + Fieldref [com/example/NiePaoPao/a.d I]
+  + Fieldref [com/example/NiePaoPao/a.e I]
+  + Fieldref [com/example/NiePaoPao/a.f I]
+  + Fieldref [com/example/NiePaoPao/a.g F]
+  + Fieldref [com/example/NiePaoPao/a.h F]
+  + Fieldref [com/example/NiePaoPao/a.i F]
+  + Fieldref [com/example/NiePaoPao/a.j F]
+  + Fieldref [com/example/NiePaoPao/a.l I]
+  + Fieldref [com/example/NiePaoPao/a.m I]
+  + Fieldref [com/example/NiePaoPao/a.n I]
+  + Fieldref [com/example/NiePaoPao/a.o I]
+  + Fieldref [com/example/NiePaoPao/a.p I]
+  + Fieldref [com/example/NiePaoPao/a.q I]
+  + Fieldref [com/example/NiePaoPao/a.r I]
+  + Fieldref [com/example/NiePaoPao/a.s I]
+  + Fieldref [com/example/NiePaoPao/a.t I]
+  + Fieldref [com/example/NiePaoPao/a.u I]
+  + Fieldref [com/example/NiePaoPao/a.v I]
+  + Fieldref [com/example/NiePaoPao/a.w I]
+  + NameAndType [a I]
+  + NameAndType [b I]
+  + NameAndType [c I]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [f I]
+  + NameAndType [g F]
+  + NameAndType [h F]
+  + NameAndType [i F]
+  + NameAndType [j F]
+  + NameAndType [l I]
+  + NameAndType [m I]
+  + NameAndType [n I]
+  + NameAndType [o I]
+  + NameAndType [p I]
+  + NameAndType [q I]
+  + NameAndType [r I]
+  + NameAndType [s I]
+  + NameAndType [t I]
+  + NameAndType [u I]
+  + NameAndType [v I]
+  + NameAndType [w I]
+  + Utf8 [()V]
+  + Utf8 [<clinit>]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Landroid/media/MediaPlayer;]
+  + Utf8 [a]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [m]
+  + Utf8 [n]
+  + Utf8 [o]
+  + Utf8 [p]
+  + Utf8 [q]
+  + Utf8 [r]
+  + Utf8 [s]
+  + Utf8 [t]
+  + Utf8 [u]
+  + Utf8 [v]
+  + Utf8 [w]
+
+Fields (count = 23):
+  + Field:        a I
+    Access flags: 0x9
+      = public static int a
+  + Field:        b I
+    Access flags: 0x9
+      = public static int b
+  + Field:        c I
+    Access flags: 0x9
+      = public static int c
+  + Field:        d I
+    Access flags: 0x9
+      = public static int d
+  + Field:        e I
+    Access flags: 0x9
+      = public static int e
+  + Field:        f I
+    Access flags: 0x9
+      = public static int f
+  + Field:        g F
+    Access flags: 0x9
+      = public static float g
+  + Field:        h F
+    Access flags: 0x9
+      = public static float h
+  + Field:        i F
+    Access flags: 0x9
+      = public static float i
+  + Field:        j F
+    Access flags: 0x9
+      = public static float j
+  + Field:        k Landroid/media/MediaPlayer;
+    Access flags: 0x9
+      = public static android.media.MediaPlayer k
+  + Field:        l I
+    Access flags: 0x9
+      = public static int l
+  + Field:        m I
+    Access flags: 0x9
+      = public static int m
+  + Field:        n I
+    Access flags: 0x9
+      = public static int n
+  + Field:        o I
+    Access flags: 0x9
+      = public static int o
+  + Field:        p I
+    Access flags: 0x9
+      = public static int p
+  + Field:        q I
+    Access flags: 0x9
+      = public static int q
+  + Field:        r I
+    Access flags: 0x9
+      = public static int r
+  + Field:        s I
+    Access flags: 0x9
+      = public static int s
+  + Field:        t I
+    Access flags: 0x9
+      = public static int t
+  + Field:        u I
+    Access flags: 0x9
+      = public static int u
+  + Field:        v I
+    Access flags: 0x9
+      = public static int v
+  + Field:        w I
+    Access flags: 0x9
+      = public static int w
+
+Methods (count = 1):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 110, locals = 0, stack = 2):
+      [0] sipush 616
+      [3] putstatic #3
+        + Fieldref [com/example/NiePaoPao/a.a I]
+      [6] sipush 480
+      [9] putstatic #4
+        + Fieldref [com/example/NiePaoPao/a.b I]
+      [12] sipush 800
+      [15] putstatic #5
+        + Fieldref [com/example/NiePaoPao/a.c I]
+      [18] sipush 480
+      [21] putstatic #6
+        + Fieldref [com/example/NiePaoPao/a.d I]
+      [24] sipush 800
+      [27] putstatic #7
+        + Fieldref [com/example/NiePaoPao/a.e I]
+      [30] iconst_0
+      [31] putstatic #8
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [34] fconst_0
+      [35] putstatic #9
+        + Fieldref [com/example/NiePaoPao/a.g F]
+      [38] fconst_0
+      [39] putstatic #10
+        + Fieldref [com/example/NiePaoPao/a.h F]
+      [42] fconst_0
+      [43] putstatic #11
+        + Fieldref [com/example/NiePaoPao/a.i F]
+      [46] fconst_0
+      [47] putstatic #12
+        + Fieldref [com/example/NiePaoPao/a.j F]
+      [50] bipush 50
+      [52] putstatic #13
+        + Fieldref [com/example/NiePaoPao/a.l I]
+      [55] sipush 5000
+      [58] getstatic #13
+        + Fieldref [com/example/NiePaoPao/a.l I]
+      [61] idiv
+      [62] putstatic #14
+        + Fieldref [com/example/NiePaoPao/a.m I]
+      [65] iconst_5
+      [66] putstatic #15
+        + Fieldref [com/example/NiePaoPao/a.n I]
+      [69] bipush 6
+      [71] putstatic #16
+        + Fieldref [com/example/NiePaoPao/a.o I]
+      [74] iconst_5
+      [75] putstatic #17
+        + Fieldref [com/example/NiePaoPao/a.p I]
+      [78] iconst_3
+      [79] putstatic #18
+        + Fieldref [com/example/NiePaoPao/a.q I]
+      [82] bipush 9
+      [84] putstatic #19
+        + Fieldref [com/example/NiePaoPao/a.r I]
+      [87] bipush 10
+      [89] putstatic #20
+        + Fieldref [com/example/NiePaoPao/a.s I]
+      [92] bipush 100
+      [94] putstatic #21
+        + Fieldref [com/example/NiePaoPao/a.t I]
+      [97] iconst_5
+      [98] putstatic #22
+        + Fieldref [com/example/NiePaoPao/a.u I]
+      [101] iconst_2
+      [102] putstatic #23
+        + Fieldref [com/example/NiePaoPao/a.v I]
+      [105] iconst_5
+      [106] putstatic #24
+        + Fieldref [com/example/NiePaoPao/a.w I]
+      [109] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/b
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.NiePaoPao.b extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 109):
+  + Integer [32884]
+  + Integer [32888]
+  + Float [0.2]
+  + Class [com/example/NiePaoPao/a]
+  + Class [com/example/NiePaoPao/b]
+  + Class [java/lang/Object]
+  + Class [java/nio/ByteBuffer]
+  + Class [java/nio/ByteOrder]
+  + Class [java/nio/FloatBuffer]
+  + Class [java/nio/IntBuffer]
+  + Class [javax/microedition/khronos/opengles/GL10]
+  + Fieldref [com/example/NiePaoPao/a.f I]
+  + Fieldref [com/example/NiePaoPao/b.a I]
+  + Fieldref [com/example/NiePaoPao/b.b I]
+  + Fieldref [com/example/NiePaoPao/b.c F]
+  + Fieldref [com/example/NiePaoPao/b.d Ljava/nio/IntBuffer;]
+  + Fieldref [com/example/NiePaoPao/b.e Ljava/nio/FloatBuffer;]
+  + Methodref [com/example/NiePaoPao/b.a (I)V]
+  + Methodref [com/example/NiePaoPao/b.a (II)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+  + Methodref [java/nio/ByteBuffer.asFloatBuffer ()Ljava/nio/FloatBuffer;]
+  + Methodref [java/nio/ByteBuffer.asIntBuffer ()Ljava/nio/IntBuffer;]
+  + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+  + Methodref [java/nio/FloatBuffer.position (I)Ljava/nio/Buffer;]
+  + Methodref [java/nio/FloatBuffer.put ([F)Ljava/nio/FloatBuffer;]
+  + Methodref [java/nio/IntBuffer.position (I)Ljava/nio/Buffer;]
+  + Methodref [java/nio/IntBuffer.put ([I)Ljava/nio/IntBuffer;]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDrawArrays (III)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexCoordPointer (IIILjava/nio/Buffer;)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glVertexPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (I)V]
+  + NameAndType [a (II)V]
+  + NameAndType [a I]
+  + NameAndType [allocateDirect (I)Ljava/nio/ByteBuffer;]
+  + NameAndType [asFloatBuffer ()Ljava/nio/FloatBuffer;]
+  + NameAndType [asIntBuffer ()Ljava/nio/IntBuffer;]
+  + NameAndType [b I]
+  + NameAndType [c F]
+  + NameAndType [d Ljava/nio/IntBuffer;]
+  + NameAndType [e Ljava/nio/FloatBuffer;]
+  + NameAndType [f I]
+  + NameAndType [glBindTexture (II)V]
+  + NameAndType [glDisable (I)V]
+  + NameAndType [glDrawArrays (III)V]
+  + NameAndType [glEnable (I)V]
+  + NameAndType [glEnableClientState (I)V]
+  + NameAndType [glTexCoordPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [glVertexPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [nativeOrder ()Ljava/nio/ByteOrder;]
+  + NameAndType [order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + NameAndType [position (I)Ljava/nio/Buffer;]
+  + NameAndType [put ([F)Ljava/nio/FloatBuffer;]
+  + NameAndType [put ([I)Ljava/nio/IntBuffer;]
+  + Utf8 [()Ljava/nio/ByteOrder;]
+  + Utf8 [()Ljava/nio/FloatBuffer;]
+  + Utf8 [()Ljava/nio/IntBuffer;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/nio/Buffer;]
+  + Utf8 [(I)Ljava/nio/ByteBuffer;]
+  + Utf8 [(I)V]
+  + Utf8 [(II)V]
+  + Utf8 [(III)V]
+  + Utf8 [(IIILjava/nio/Buffer;)V]
+  + Utf8 [(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + Utf8 [([F)Ljava/nio/FloatBuffer;]
+  + Utf8 [([I)Ljava/nio/IntBuffer;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Ljava/nio/FloatBuffer;]
+  + Utf8 [Ljava/nio/IntBuffer;]
+  + Utf8 [a]
+  + Utf8 [allocateDirect]
+  + Utf8 [asFloatBuffer]
+  + Utf8 [asIntBuffer]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [com/example/NiePaoPao/b]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [glBindTexture]
+  + Utf8 [glDisable]
+  + Utf8 [glDrawArrays]
+  + Utf8 [glEnable]
+  + Utf8 [glEnableClientState]
+  + Utf8 [glTexCoordPointer]
+  + Utf8 [glVertexPointer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/nio/ByteBuffer]
+  + Utf8 [java/nio/ByteOrder]
+  + Utf8 [java/nio/FloatBuffer]
+  + Utf8 [java/nio/IntBuffer]
+  + Utf8 [javax/microedition/khronos/opengles/GL10]
+  + Utf8 [nativeOrder]
+  + Utf8 [order]
+  + Utf8 [position]
+  + Utf8 [put]
+
+Fields (count = 5):
+  + Field:        d Ljava/nio/IntBuffer;
+    Access flags: 0x2
+      = private java.nio.IntBuffer d
+  + Field:        e Ljava/nio/FloatBuffer;
+    Access flags: 0x2
+      = private java.nio.FloatBuffer e
+  + Field:        a I
+    Access flags: 0x0
+      = int a
+  + Field:        b I
+    Access flags: 0x0
+      = int b
+  + Field:        c F
+    Access flags: 0x0
+      = float c
+
+Methods (count = 4):
+  - Method:       <init>(I)V
+    Access flags: 0x1
+      = public b(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #20
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_0
+      [6] putfield #13
+        + Fieldref [com/example/NiePaoPao/b.a I]
+      [9] aload_0 v0
+      [10] iload_1 v1
+      [11] putfield #14
+        + Fieldref [com/example/NiePaoPao/b.b I]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(II)V
+    Access flags: 0x2
+      = private void a(int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 226, locals = 9, stack = 5):
+      [0] aload_0 v0
+      [1] bipush 6
+      [3] putfield #13
+        + Fieldref [com/example/NiePaoPao/b.a I]
+      [6] bipush 32
+      [8] getstatic #12
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [11] imul
+      [12] istore_3 v3
+      [13] bipush 32
+      [15] getstatic #12
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [18] imul
+      [19] istore v4
+      [21] iload_1 v1
+      [22] iconst_3
+      [23] isub
+      [24] iconst_2
+      [25] imul
+      [26] iload_3 v3
+      [27] imul
+      [28] istore v5
+      [30] iload_2 v2
+      [31] iconst_3
+      [32] isub
+      [33] iconst_2
+      [34] imul
+      [35] iload v4
+      [37] imul
+      [38] istore v6
+      [40] bipush 18
+      [42] newarray 10
+      [44] dup
+      [45] iconst_0
+      [46] iload_3 v3
+      [47] ineg
+      [48] iload v5
+      [50] iadd
+      [51] iastore
+      [52] dup
+      [53] iconst_1
+      [54] iload v4
+      [56] iload v6
+      [58] iadd
+      [59] iastore
+      [60] dup
+      [61] iconst_2
+      [62] iconst_0
+      [63] iastore
+      [64] dup
+      [65] iconst_3
+      [66] iload_3 v3
+      [67] ineg
+      [68] iload v5
+      [70] iadd
+      [71] iastore
+      [72] dup
+      [73] iconst_4
+      [74] iload v4
+      [76] ineg
+      [77] iload v6
+      [79] iadd
+      [80] iastore
+      [81] dup
+      [82] iconst_5
+      [83] iconst_0
+      [84] iastore
+      [85] dup
+      [86] bipush 6
+      [88] iload_3 v3
+      [89] iload v5
+      [91] iadd
+      [92] iastore
+      [93] dup
+      [94] bipush 7
+      [96] iload v4
+      [98] ineg
+      [99] iload v6
+      [101] iadd
+      [102] iastore
+      [103] dup
+      [104] bipush 8
+      [106] iconst_0
+      [107] iastore
+      [108] dup
+      [109] bipush 9
+      [111] iload_3 v3
+      [112] iload v5
+      [114] iadd
+      [115] iastore
+      [116] dup
+      [117] bipush 10
+      [119] iload v4
+      [121] ineg
+      [122] iload v6
+      [124] iadd
+      [125] iastore
+      [126] dup
+      [127] bipush 11
+      [129] iconst_0
+      [130] iastore
+      [131] dup
+      [132] bipush 12
+      [134] iload_3 v3
+      [135] iload v5
+      [137] iadd
+      [138] iastore
+      [139] dup
+      [140] bipush 13
+      [142] iload v4
+      [144] iload v6
+      [146] iadd
+      [147] iastore
+      [148] dup
+      [149] bipush 14
+      [151] iconst_0
+      [152] iastore
+      [153] dup
+      [154] bipush 15
+      [156] iload_3 v3
+      [157] ineg
+      [158] iload v5
+      [160] iadd
+      [161] iastore
+      [162] dup
+      [163] bipush 16
+      [165] iload v4
+      [167] iload v6
+      [169] iadd
+      [170] iastore
+      [171] dup
+      [172] bipush 17
+      [174] iconst_0
+      [175] iastore
+      [176] astore v7
+      [178] aload v7
+      [180] arraylength
+      [181] iconst_4
+      [182] imul
+      [183] invokestatic #21
+        + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+      [186] astore v8
+      [188] aload v8
+      [190] invokestatic #25
+        + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+      [193] invokevirtual #24
+        + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+      [196] pop
+      [197] aload_0 v0
+      [198] aload v8
+      [200] invokevirtual #23
+        + Methodref [java/nio/ByteBuffer.asIntBuffer ()Ljava/nio/IntBuffer;]
+      [203] putfield #16
+        + Fieldref [com/example/NiePaoPao/b.d Ljava/nio/IntBuffer;]
+      [206] aload_0 v0
+      [207] getfield #16
+        + Fieldref [com/example/NiePaoPao/b.d Ljava/nio/IntBuffer;]
+      [210] aload v7
+      [212] invokevirtual #29
+        + Methodref [java/nio/IntBuffer.put ([I)Ljava/nio/IntBuffer;]
+      [215] pop
+      [216] aload_0 v0
+      [217] getfield #16
+        + Fieldref [com/example/NiePaoPao/b.d Ljava/nio/IntBuffer;]
+      [220] iconst_0
+      [221] invokevirtual #28
+        + Methodref [java/nio/IntBuffer.position (I)Ljava/nio/Buffer;]
+      [224] pop
+      [225] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)V
+    Access flags: 0x2
+      = private void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 150, locals = 4, stack = 5):
+      [0] aload_0 v0
+      [1] ldc #3
+        + Float [0.2]
+      [3] putfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [6] bipush 12
+      [8] newarray 6
+      [10] dup
+      [11] iconst_0
+      [12] iload_1 v1
+      [13] iconst_1
+      [14] isub
+      [15] i2f
+      [16] aload_0 v0
+      [17] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [20] fmul
+      [21] fastore
+      [22] dup
+      [23] iconst_1
+      [24] fconst_0
+      [25] fastore
+      [26] dup
+      [27] iconst_2
+      [28] iload_1 v1
+      [29] iconst_1
+      [30] isub
+      [31] i2f
+      [32] aload_0 v0
+      [33] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [36] fmul
+      [37] fastore
+      [38] dup
+      [39] iconst_3
+      [40] fconst_1
+      [41] fastore
+      [42] dup
+      [43] iconst_4
+      [44] iload_1 v1
+      [45] i2f
+      [46] aload_0 v0
+      [47] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [50] fmul
+      [51] fastore
+      [52] dup
+      [53] iconst_5
+      [54] fconst_1
+      [55] fastore
+      [56] dup
+      [57] bipush 6
+      [59] iload_1 v1
+      [60] i2f
+      [61] aload_0 v0
+      [62] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [65] fmul
+      [66] fastore
+      [67] dup
+      [68] bipush 7
+      [70] fconst_1
+      [71] fastore
+      [72] dup
+      [73] bipush 8
+      [75] iload_1 v1
+      [76] i2f
+      [77] aload_0 v0
+      [78] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [81] fmul
+      [82] fastore
+      [83] dup
+      [84] bipush 9
+      [86] fconst_0
+      [87] fastore
+      [88] dup
+      [89] bipush 10
+      [91] iload_1 v1
+      [92] iconst_1
+      [93] isub
+      [94] i2f
+      [95] aload_0 v0
+      [96] getfield #15
+        + Fieldref [com/example/NiePaoPao/b.c F]
+      [99] fmul
+      [100] fastore
+      [101] dup
+      [102] bipush 11
+      [104] fconst_0
+      [105] fastore
+      [106] astore_2 v2
+      [107] aload_2 v2
+      [108] arraylength
+      [109] iconst_4
+      [110] imul
+      [111] invokestatic #21
+        + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+      [114] astore_3 v3
+      [115] aload_3 v3
+      [116] invokestatic #25
+        + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+      [119] invokevirtual #24
+        + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+      [122] pop
+      [123] aload_0 v0
+      [124] aload_3 v3
+      [125] invokevirtual #22
+        + Methodref [java/nio/ByteBuffer.asFloatBuffer ()Ljava/nio/FloatBuffer;]
+      [128] putfield #17
+        + Fieldref [com/example/NiePaoPao/b.e Ljava/nio/FloatBuffer;]
+      [131] aload_0 v0
+      [132] getfield #17
+        + Fieldref [com/example/NiePaoPao/b.e Ljava/nio/FloatBuffer;]
+      [135] aload_2 v2
+      [136] invokevirtual #27
+        + Methodref [java/nio/FloatBuffer.put ([F)Ljava/nio/FloatBuffer;]
+      [139] pop
+      [140] aload_0 v0
+      [141] getfield #17
+        + Fieldref [com/example/NiePaoPao/b.e Ljava/nio/FloatBuffer;]
+      [144] iconst_0
+      [145] invokevirtual #26
+        + Methodref [java/nio/FloatBuffer.position (I)Ljava/nio/Buffer;]
+      [148] pop
+      [149] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljavax/microedition/khronos/opengles/GL10;III)V
+    Access flags: 0x1
+      = public void a(javax.microedition.khronos.opengles.GL10,int,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 102, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] iload_3 v3
+      [2] iload v4
+      [4] invokespecial #19
+        + Methodref [com/example/NiePaoPao/b.a (II)V]
+      [7] aload_0 v0
+      [8] iload_2 v2
+      [9] invokespecial #18
+        + Methodref [com/example/NiePaoPao/b.a (I)V]
+      [12] aload_1 v1
+      [13] ldc #1
+        + Integer [32884]
+      [15] invokeinterface #34
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+      [20] aload_1 v1
+      [21] iconst_3
+      [22] sipush 5132
+      [25] iconst_0
+      [26] aload_0 v0
+      [27] getfield #16
+        + Fieldref [com/example/NiePaoPao/b.d Ljava/nio/IntBuffer;]
+      [30] invokeinterface #36
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glVertexPointer (IIILjava/nio/Buffer;)V]
+      [35] aload_1 v1
+      [36] sipush 3553
+      [39] invokeinterface #33
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+      [44] aload_1 v1
+      [45] ldc #2
+        + Integer [32888]
+      [47] invokeinterface #34
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+      [52] aload_1 v1
+      [53] iconst_2
+      [54] sipush 5126
+      [57] iconst_0
+      [58] aload_0 v0
+      [59] getfield #17
+        + Fieldref [com/example/NiePaoPao/b.e Ljava/nio/FloatBuffer;]
+      [62] invokeinterface #35
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexCoordPointer (IIILjava/nio/Buffer;)V]
+      [67] aload_1 v1
+      [68] sipush 3553
+      [71] aload_0 v0
+      [72] getfield #14
+        + Fieldref [com/example/NiePaoPao/b.b I]
+      [75] invokeinterface #30
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+      [80] aload_1 v1
+      [81] iconst_4
+      [82] iconst_0
+      [83] aload_0 v0
+      [84] getfield #13
+        + Fieldref [com/example/NiePaoPao/b.a I]
+      [87] invokeinterface #32
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDrawArrays (III)V]
+      [92] aload_1 v1
+      [93] sipush 3553
+      [96] invokeinterface #31
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+      [101] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/c
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.NiePaoPao.c extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 113):
+  + Integer [32884]
+  + Integer [32888]
+  + Float [0.5]
+  + Class [com/example/NiePaoPao/a]
+  + Class [com/example/NiePaoPao/c]
+  + Class [java/lang/Object]
+  + Class [java/nio/ByteBuffer]
+  + Class [java/nio/ByteOrder]
+  + Class [java/nio/FloatBuffer]
+  + Class [java/nio/IntBuffer]
+  + Class [javax/microedition/khronos/opengles/GL10]
+  + Fieldref [com/example/NiePaoPao/a.f I]
+  + Fieldref [com/example/NiePaoPao/c.a I]
+  + Fieldref [com/example/NiePaoPao/c.b I]
+  + Fieldref [com/example/NiePaoPao/c.c F]
+  + Fieldref [com/example/NiePaoPao/c.d Ljava/nio/IntBuffer;]
+  + Fieldref [com/example/NiePaoPao/c.e Ljava/nio/FloatBuffer;]
+  + Methodref [com/example/NiePaoPao/c.a (I)V]
+  + Methodref [com/example/NiePaoPao/c.a (II)V]
+  + Methodref [com/example/NiePaoPao/c.a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+  + Methodref [java/nio/ByteBuffer.asFloatBuffer ()Ljava/nio/FloatBuffer;]
+  + Methodref [java/nio/ByteBuffer.asIntBuffer ()Ljava/nio/IntBuffer;]
+  + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+  + Methodref [java/nio/FloatBuffer.position (I)Ljava/nio/Buffer;]
+  + Methodref [java/nio/FloatBuffer.put ([F)Ljava/nio/FloatBuffer;]
+  + Methodref [java/nio/IntBuffer.position (I)Ljava/nio/Buffer;]
+  + Methodref [java/nio/IntBuffer.put ([I)Ljava/nio/IntBuffer;]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDrawArrays (III)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexCoordPointer (IIILjava/nio/Buffer;)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glVertexPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (I)V]
+  + NameAndType [a (II)V]
+  + NameAndType [a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + NameAndType [a I]
+  + NameAndType [allocateDirect (I)Ljava/nio/ByteBuffer;]
+  + NameAndType [asFloatBuffer ()Ljava/nio/FloatBuffer;]
+  + NameAndType [asIntBuffer ()Ljava/nio/IntBuffer;]
+  + NameAndType [b I]
+  + NameAndType [c F]
+  + NameAndType [d Ljava/nio/IntBuffer;]
+  + NameAndType [e Ljava/nio/FloatBuffer;]
+  + NameAndType [f I]
+  + NameAndType [glBindTexture (II)V]
+  + NameAndType [glDisable (I)V]
+  + NameAndType [glDrawArrays (III)V]
+  + NameAndType [glEnable (I)V]
+  + NameAndType [glEnableClientState (I)V]
+  + NameAndType [glTexCoordPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [glVertexPointer (IIILjava/nio/Buffer;)V]
+  + NameAndType [nativeOrder ()Ljava/nio/ByteOrder;]
+  + NameAndType [order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + NameAndType [position (I)Ljava/nio/Buffer;]
+  + NameAndType [put ([F)Ljava/nio/FloatBuffer;]
+  + NameAndType [put ([I)Ljava/nio/IntBuffer;]
+  + Utf8 [()Ljava/nio/ByteOrder;]
+  + Utf8 [()Ljava/nio/FloatBuffer;]
+  + Utf8 [()Ljava/nio/IntBuffer;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/nio/Buffer;]
+  + Utf8 [(I)Ljava/nio/ByteBuffer;]
+  + Utf8 [(I)V]
+  + Utf8 [(II)V]
+  + Utf8 [(III)V]
+  + Utf8 [(IIILjava/nio/Buffer;)V]
+  + Utf8 [(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;)V]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + Utf8 [([F)Ljava/nio/FloatBuffer;]
+  + Utf8 [([I)Ljava/nio/IntBuffer;]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Ljava/nio/FloatBuffer;]
+  + Utf8 [Ljava/nio/IntBuffer;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [allocateDirect]
+  + Utf8 [asFloatBuffer]
+  + Utf8 [asIntBuffer]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [com/example/NiePaoPao/c]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [glBindTexture]
+  + Utf8 [glDisable]
+  + Utf8 [glDrawArrays]
+  + Utf8 [glEnable]
+  + Utf8 [glEnableClientState]
+  + Utf8 [glTexCoordPointer]
+  + Utf8 [glVertexPointer]
+  + Utf8 [java/lang/Object]
+  + Utf8 [java/nio/ByteBuffer]
+  + Utf8 [java/nio/ByteOrder]
+  + Utf8 [java/nio/FloatBuffer]
+  + Utf8 [java/nio/IntBuffer]
+  + Utf8 [javax/microedition/khronos/opengles/GL10]
+  + Utf8 [nativeOrder]
+  + Utf8 [order]
+  + Utf8 [position]
+  + Utf8 [put]
+
+Fields (count = 5):
+  + Field:        d Ljava/nio/IntBuffer;
+    Access flags: 0x2
+      = private java.nio.IntBuffer d
+  + Field:        e Ljava/nio/FloatBuffer;
+    Access flags: 0x2
+      = private java.nio.FloatBuffer e
+  + Field:        a I
+    Access flags: 0x0
+      = int a
+  + Field:        b I
+    Access flags: 0x0
+      = int b
+  + Field:        c F
+    Access flags: 0x0
+      = float c
+
+Methods (count = 5):
+  - Method:       <init>(I)V
+    Access flags: 0x1
+      = public c(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [java/lang/Object.<init> ()V]
+      [4] aload_0 v0
+      [5] iconst_0
+      [6] putfield #13
+        + Fieldref [com/example/NiePaoPao/c.a I]
+      [9] aload_0 v0
+      [10] iload_1 v1
+      [11] putfield #14
+        + Fieldref [com/example/NiePaoPao/c.b I]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(II)V
+    Access flags: 0x2
+      = private void a(int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 223, locals = 9, stack = 5):
+      [0] aload_0 v0
+      [1] bipush 6
+      [3] putfield #13
+        + Fieldref [com/example/NiePaoPao/c.a I]
+      [6] bipush 32
+      [8] getstatic #12
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [11] imul
+      [12] istore_3 v3
+      [13] bipush 32
+      [15] getstatic #12
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [18] imul
+      [19] istore v4
+      [21] iload_1 v1
+      [22] iconst_3
+      [23] isub
+      [24] iconst_2
+      [25] imul
+      [26] iload_3 v3
+      [27] imul
+      [28] istore v5
+      [30] iload_2 v2
+      [31] iconst_3
+      [32] isub
+      [33] iconst_2
+      [34] imul
+      [35] iload v4
+      [37] imul
+      [38] istore v6
+      [40] bipush 18
+      [42] newarray 10
+      [44] dup
+      [45] iconst_0
+      [46] iload_3 v3
+      [47] ineg
+      [48] iload v5
+      [50] iadd
+      [51] iastore
+      [52] dup
+      [53] iconst_1
+      [54] iload v4
+      [56] iload v6
+      [58] iadd
+      [59] iastore
+      [60] dup
+      [61] iconst_2
+      [62] iconst_0
+      [63] iastore
+      [64] dup
+      [65] iconst_3
+      [66] iload_3 v3
+      [67] ineg
+      [68] iastore
+      [69] dup
+      [70] iconst_4
+      [71] iload v4
+      [73] ineg
+      [74] iload v6
+      [76] iadd
+      [77] iastore
+      [78] dup
+      [79] iconst_5
+      [80] iconst_0
+      [81] iastore
+      [82] dup
+      [83] bipush 6
+      [85] iload_3 v3
+      [86] iload v5
+      [88] iadd
+      [89] iastore
+      [90] dup
+      [91] bipush 7
+      [93] iload v4
+      [95] ineg
+      [96] iload v6
+      [98] iadd
+      [99] iastore
+      [100] dup
+      [101] bipush 8
+      [103] iconst_0
+      [104] iastore
+      [105] dup
+      [106] bipush 9
+      [108] iload_3 v3
+      [109] iload v5
+      [111] iadd
+      [112] iastore
+      [113] dup
+      [114] bipush 10
+      [116] iload v4
+      [118] ineg
+      [119] iload v6
+      [121] iadd
+      [122] iastore
+      [123] dup
+      [124] bipush 11
+      [126] iconst_0
+      [127] iastore
+      [128] dup
+      [129] bipush 12
+      [131] iload_3 v3
+      [132] iload v5
+      [134] iadd
+      [135] iastore
+      [136] dup
+      [137] bipush 13
+      [139] iload v4
+      [141] iload v6
+      [143] iadd
+      [144] iastore
+      [145] dup
+      [146] bipush 14
+      [148] iconst_0
+      [149] iastore
+      [150] dup
+      [151] bipush 15
+      [153] iload_3 v3
+      [154] ineg
+      [155] iload v5
+      [157] iadd
+      [158] iastore
+      [159] dup
+      [160] bipush 16
+      [162] iload v4
+      [164] iload v6
+      [166] iadd
+      [167] iastore
+      [168] dup
+      [169] bipush 17
+      [171] iconst_0
+      [172] iastore
+      [173] astore v7
+      [175] aload v7
+      [177] arraylength
+      [178] iconst_4
+      [179] imul
+      [180] invokestatic #22
+        + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+      [183] astore v8
+      [185] aload v8
+      [187] invokestatic #26
+        + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+      [190] invokevirtual #25
+        + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+      [193] pop
+      [194] aload_0 v0
+      [195] aload v8
+      [197] invokevirtual #24
+        + Methodref [java/nio/ByteBuffer.asIntBuffer ()Ljava/nio/IntBuffer;]
+      [200] putfield #16
+        + Fieldref [com/example/NiePaoPao/c.d Ljava/nio/IntBuffer;]
+      [203] aload_0 v0
+      [204] getfield #16
+        + Fieldref [com/example/NiePaoPao/c.d Ljava/nio/IntBuffer;]
+      [207] aload v7
+      [209] invokevirtual #30
+        + Methodref [java/nio/IntBuffer.put ([I)Ljava/nio/IntBuffer;]
+      [212] pop
+      [213] aload_0 v0
+      [214] getfield #16
+        + Fieldref [com/example/NiePaoPao/c.d Ljava/nio/IntBuffer;]
+      [217] iconst_0
+      [218] invokevirtual #29
+        + Methodref [java/nio/IntBuffer.position (I)Ljava/nio/Buffer;]
+      [221] pop
+      [222] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(I)V
+    Access flags: 0x2
+      = private void a(int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 150, locals = 4, stack = 5):
+      [0] aload_0 v0
+      [1] ldc #3
+        + Float [0.5]
+      [3] putfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [6] bipush 12
+      [8] newarray 6
+      [10] dup
+      [11] iconst_0
+      [12] iload_1 v1
+      [13] iconst_1
+      [14] isub
+      [15] i2f
+      [16] aload_0 v0
+      [17] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [20] fmul
+      [21] fastore
+      [22] dup
+      [23] iconst_1
+      [24] fconst_0
+      [25] fastore
+      [26] dup
+      [27] iconst_2
+      [28] iload_1 v1
+      [29] iconst_1
+      [30] isub
+      [31] i2f
+      [32] aload_0 v0
+      [33] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [36] fmul
+      [37] fastore
+      [38] dup
+      [39] iconst_3
+      [40] fconst_1
+      [41] fastore
+      [42] dup
+      [43] iconst_4
+      [44] iload_1 v1
+      [45] i2f
+      [46] aload_0 v0
+      [47] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [50] fmul
+      [51] fastore
+      [52] dup
+      [53] iconst_5
+      [54] fconst_1
+      [55] fastore
+      [56] dup
+      [57] bipush 6
+      [59] iload_1 v1
+      [60] i2f
+      [61] aload_0 v0
+      [62] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [65] fmul
+      [66] fastore
+      [67] dup
+      [68] bipush 7
+      [70] fconst_1
+      [71] fastore
+      [72] dup
+      [73] bipush 8
+      [75] iload_1 v1
+      [76] i2f
+      [77] aload_0 v0
+      [78] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [81] fmul
+      [82] fastore
+      [83] dup
+      [84] bipush 9
+      [86] fconst_0
+      [87] fastore
+      [88] dup
+      [89] bipush 10
+      [91] iload_1 v1
+      [92] iconst_1
+      [93] isub
+      [94] i2f
+      [95] aload_0 v0
+      [96] getfield #15
+        + Fieldref [com/example/NiePaoPao/c.c F]
+      [99] fmul
+      [100] fastore
+      [101] dup
+      [102] bipush 11
+      [104] fconst_0
+      [105] fastore
+      [106] astore_2 v2
+      [107] aload_2 v2
+      [108] arraylength
+      [109] iconst_4
+      [110] imul
+      [111] invokestatic #22
+        + Methodref [java/nio/ByteBuffer.allocateDirect (I)Ljava/nio/ByteBuffer;]
+      [114] astore_3 v3
+      [115] aload_3 v3
+      [116] invokestatic #26
+        + Methodref [java/nio/ByteOrder.nativeOrder ()Ljava/nio/ByteOrder;]
+      [119] invokevirtual #25
+        + Methodref [java/nio/ByteBuffer.order (Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;]
+      [122] pop
+      [123] aload_0 v0
+      [124] aload_3 v3
+      [125] invokevirtual #23
+        + Methodref [java/nio/ByteBuffer.asFloatBuffer ()Ljava/nio/FloatBuffer;]
+      [128] putfield #17
+        + Fieldref [com/example/NiePaoPao/c.e Ljava/nio/FloatBuffer;]
+      [131] aload_0 v0
+      [132] getfield #17
+        + Fieldref [com/example/NiePaoPao/c.e Ljava/nio/FloatBuffer;]
+      [135] aload_2 v2
+      [136] invokevirtual #28
+        + Methodref [java/nio/FloatBuffer.put ([F)Ljava/nio/FloatBuffer;]
+      [139] pop
+      [140] aload_0 v0
+      [141] getfield #17
+        + Fieldref [com/example/NiePaoPao/c.e Ljava/nio/FloatBuffer;]
+      [144] iconst_0
+      [145] invokevirtual #27
+        + Methodref [java/nio/FloatBuffer.position (I)Ljava/nio/Buffer;]
+      [148] pop
+      [149] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljavax/microedition/khronos/opengles/GL10;III)V
+    Access flags: 0x2
+      = private void a(javax.microedition.khronos.opengles.GL10,int,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 102, locals = 5, stack = 5):
+      [0] aload_0 v0
+      [1] iload_3 v3
+      [2] iload v4
+      [4] invokespecial #19
+        + Methodref [com/example/NiePaoPao/c.a (II)V]
+      [7] aload_0 v0
+      [8] iload_2 v2
+      [9] invokespecial #18
+        + Methodref [com/example/NiePaoPao/c.a (I)V]
+      [12] aload_1 v1
+      [13] ldc #1
+        + Integer [32884]
+      [15] invokeinterface #35
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+      [20] aload_1 v1
+      [21] iconst_3
+      [22] sipush 5132
+      [25] iconst_0
+      [26] aload_0 v0
+      [27] getfield #16
+        + Fieldref [com/example/NiePaoPao/c.d Ljava/nio/IntBuffer;]
+      [30] invokeinterface #37
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glVertexPointer (IIILjava/nio/Buffer;)V]
+      [35] aload_1 v1
+      [36] sipush 3553
+      [39] invokeinterface #34
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+      [44] aload_1 v1
+      [45] ldc #2
+        + Integer [32888]
+      [47] invokeinterface #35
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnableClientState (I)V]
+      [52] aload_1 v1
+      [53] iconst_2
+      [54] sipush 5126
+      [57] iconst_0
+      [58] aload_0 v0
+      [59] getfield #17
+        + Fieldref [com/example/NiePaoPao/c.e Ljava/nio/FloatBuffer;]
+      [62] invokeinterface #36
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexCoordPointer (IIILjava/nio/Buffer;)V]
+      [67] aload_1 v1
+      [68] sipush 3553
+      [71] aload_0 v0
+      [72] getfield #14
+        + Fieldref [com/example/NiePaoPao/c.b I]
+      [75] invokeinterface #31
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+      [80] aload_1 v1
+      [81] iconst_4
+      [82] iconst_0
+      [83] aload_0 v0
+      [84] getfield #13
+        + Fieldref [com/example/NiePaoPao/c.a I]
+      [87] invokeinterface #33
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDrawArrays (III)V]
+      [92] aload_1 v1
+      [93] sipush 3553
+      [96] invokeinterface #32
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+      [101] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Ljavax/microedition/khronos/opengles/GL10;)V
+    Access flags: 0x1
+      = public void a(javax.microedition.khronos.opengles.GL10)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 41, locals = 4, stack = 5):
+      [0] iconst_0
+      [1] istore_2 v2
+      [2] iload_2 v2
+      [3] bipush 7
+      [5] ificmpge +35 (target=40)
+      [8] iconst_0
+      [9] istore_3 v3
+      [10] iload_3 v3
+      [11] bipush 7
+      [13] ificmpge +21 (target=34)
+      [16] aload_0 v0
+      [17] aload_1 v1
+      [18] iload_2 v2
+      [19] iload_3 v3
+      [20] iadd
+      [21] iconst_2
+      [22] irem
+      [23] iload_2 v2
+      [24] iload_3 v3
+      [25] invokespecial #20
+        + Methodref [com/example/NiePaoPao/c.a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+      [28] iinc v3, 1
+      [31] goto -21 (target=10)
+      [34] iinc v2, 1
+      [37] goto -35 (target=2)
+      [40] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [2] Var: ...[i], Stack: (empty)
+        - [10] Var: ...[i], Stack: (empty)
+        - [34] Var: -1, Stack: (empty)
+        - [40] Var: -1, Stack: (empty)
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/MyActivity
+  Superclass:    android/app/Activity
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.NiePaoPao.MyActivity extends android.app.Activity
+
+Interfaces (count = 0):
+
+Constant Pool (count = 119):
+  + Integer [2130968576]
+  + Class [android/app/Activity]
+  + Class [android/media/MediaPlayer]
+  + Class [android/util/DisplayMetrics]
+  + Class [android/view/Display]
+  + Class [android/view/Window]
+  + Class [android/view/WindowManager]
+  + Class [com/example/NiePaoPao/MyActivity]
+  + Class [com/example/NiePaoPao/a]
+  + Class [com/example/NiePaoPao/d]
+  + Fieldref [android/util/DisplayMetrics.heightPixels I]
+  + Fieldref [android/util/DisplayMetrics.widthPixels I]
+  + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+  + Fieldref [com/example/NiePaoPao/a.d I]
+  + Fieldref [com/example/NiePaoPao/a.e I]
+  + Fieldref [com/example/NiePaoPao/a.k Landroid/media/MediaPlayer;]
+  + Methodref [android/app/Activity.<init> ()V]
+  + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+  + Methodref [android/app/Activity.onDestroy ()V]
+  + Methodref [android/app/Activity.onPause ()V]
+  + Methodref [android/app/Activity.onResume ()V]
+  + Methodref [android/app/Activity.onStart ()V]
+  + Methodref [android/app/Activity.onStop ()V]
+  + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Methodref [android/util/DisplayMetrics.<init> ()V]
+  + Methodref [android/view/Display.getMetrics (Landroid/util/DisplayMetrics;)V]
+  + Methodref [android/view/Window.setFlags (II)V]
+  + Methodref [android/view/Window.setFormat (I)V]
+  + Methodref [com/example/NiePaoPao/MyActivity.getWindow ()Landroid/view/Window;]
+  + Methodref [com/example/NiePaoPao/MyActivity.getWindowManager ()Landroid/view/WindowManager;]
+  + Methodref [com/example/NiePaoPao/MyActivity.requestWindowFeature (I)Z]
+  + Methodref [com/example/NiePaoPao/MyActivity.setContentView (Landroid/view/View;)V]
+  + Methodref [com/example/NiePaoPao/MyActivity.setRequestedOrientation (I)V]
+  + Methodref [com/example/NiePaoPao/d.<init> (Lcom/example/NiePaoPao/MyActivity;)V]
+  + Methodref [com/example/NiePaoPao/d.onPause ()V]
+  + Methodref [com/example/NiePaoPao/d.onResume ()V]
+  + Methodref [com/example/NiePaoPao/d.requestFocus ()Z]
+  + Methodref [com/example/NiePaoPao/d.setFocusableInTouchMode (Z)V]
+  + InterfaceMethodref [android/view/WindowManager.getDefaultDisplay ()Landroid/view/Display;]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (Lcom/example/NiePaoPao/MyActivity;)V]
+  + NameAndType [a Lcom/example/NiePaoPao/d;]
+  + NameAndType [create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [getDefaultDisplay ()Landroid/view/Display;]
+  + NameAndType [getMetrics (Landroid/util/DisplayMetrics;)V]
+  + NameAndType [getWindow ()Landroid/view/Window;]
+  + NameAndType [getWindowManager ()Landroid/view/WindowManager;]
+  + NameAndType [heightPixels I]
+  + NameAndType [k Landroid/media/MediaPlayer;]
+  + NameAndType [onCreate (Landroid/os/Bundle;)V]
+  + NameAndType [onDestroy ()V]
+  + NameAndType [onPause ()V]
+  + NameAndType [onResume ()V]
+  + NameAndType [onStart ()V]
+  + NameAndType [onStop ()V]
+  + NameAndType [requestFocus ()Z]
+  + NameAndType [requestWindowFeature (I)Z]
+  + NameAndType [setContentView (Landroid/view/View;)V]
+  + NameAndType [setFlags (II)V]
+  + NameAndType [setFocusableInTouchMode (Z)V]
+  + NameAndType [setFormat (I)V]
+  + NameAndType [setRequestedOrientation (I)V]
+  + NameAndType [widthPixels I]
+  + Utf8 [()Landroid/view/Display;]
+  + Utf8 [()Landroid/view/Window;]
+  + Utf8 [()Landroid/view/WindowManager;]
+  + Utf8 [()V]
+  + Utf8 [()Z]
+  + Utf8 [(I)V]
+  + Utf8 [(I)Z]
+  + Utf8 [(II)V]
+  + Utf8 [(Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+  + Utf8 [(Landroid/os/Bundle;)V]
+  + Utf8 [(Landroid/util/DisplayMetrics;)V]
+  + Utf8 [(Landroid/view/View;)V]
+  + Utf8 [(Lcom/example/NiePaoPao/MyActivity;)V]
+  + Utf8 [(Z)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/media/MediaPlayer;]
+  + Utf8 [Lcom/example/NiePaoPao/d;]
+  + Utf8 [StackMapTable]
+  + Utf8 [a]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/media/MediaPlayer]
+  + Utf8 [android/util/DisplayMetrics]
+  + Utf8 [android/view/Display]
+  + Utf8 [android/view/Window]
+  + Utf8 [android/view/WindowManager]
+  + Utf8 [com/example/NiePaoPao/MyActivity]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [com/example/NiePaoPao/d]
+  + Utf8 [create]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [getDefaultDisplay]
+  + Utf8 [getMetrics]
+  + Utf8 [getWindow]
+  + Utf8 [getWindowManager]
+  + Utf8 [heightPixels]
+  + Utf8 [k]
+  + Utf8 [onCreate]
+  + Utf8 [onDestroy]
+  + Utf8 [onPause]
+  + Utf8 [onResume]
+  + Utf8 [onStart]
+  + Utf8 [onStop]
+  + Utf8 [requestFocus]
+  + Utf8 [requestWindowFeature]
+  + Utf8 [setContentView]
+  + Utf8 [setFlags]
+  + Utf8 [setFocusableInTouchMode]
+  + Utf8 [setFormat]
+  + Utf8 [setRequestedOrientation]
+  + Utf8 [widthPixels]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/NiePaoPao/d;
+    Access flags: 0x0
+      = com.example.NiePaoPao.d a
+
+Methods (count = 7):
+  - Method:       <init>()V
+    Access flags: 0x1
+      = public MyActivity()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #17
+        + Methodref [android/app/Activity.<init> ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onCreate(Landroid/os/Bundle;)V
+    Access flags: 0x1
+      = public void onCreate(android.os.Bundle)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 110, locals = 3, stack = 4):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #18
+        + Methodref [android/app/Activity.onCreate (Landroid/os/Bundle;)V]
+      [5] aload_0 v0
+      [6] iconst_1
+      [7] invokevirtual #33
+        + Methodref [com/example/NiePaoPao/MyActivity.setRequestedOrientation (I)V]
+      [10] aload_0 v0
+      [11] invokevirtual #29
+        + Methodref [com/example/NiePaoPao/MyActivity.getWindow ()Landroid/view/Window;]
+      [14] sipush 1024
+      [17] sipush 1024
+      [20] invokevirtual #27
+        + Methodref [android/view/Window.setFlags (II)V]
+      [23] aload_0 v0
+      [24] iconst_1
+      [25] invokevirtual #31
+        + Methodref [com/example/NiePaoPao/MyActivity.requestWindowFeature (I)Z]
+      [28] pop
+      [29] new #4
+        + Class [android/util/DisplayMetrics]
+      [32] dup
+      [33] invokespecial #25
+        + Methodref [android/util/DisplayMetrics.<init> ()V]
+      [36] astore_2 v2
+      [37] aload_0 v0
+      [38] invokevirtual #30
+        + Methodref [com/example/NiePaoPao/MyActivity.getWindowManager ()Landroid/view/WindowManager;]
+      [41] invokeinterface #39
+        + InterfaceMethodref [android/view/WindowManager.getDefaultDisplay ()Landroid/view/Display;]
+      [46] aload_2 v2
+      [47] invokevirtual #26
+        + Methodref [android/view/Display.getMetrics (Landroid/util/DisplayMetrics;)V]
+      [50] aload_2 v2
+      [51] getfield #12
+        + Fieldref [android/util/DisplayMetrics.widthPixels I]
+      [54] putstatic #14
+        + Fieldref [com/example/NiePaoPao/a.d I]
+      [57] aload_2 v2
+      [58] getfield #11
+        + Fieldref [android/util/DisplayMetrics.heightPixels I]
+      [61] putstatic #15
+        + Fieldref [com/example/NiePaoPao/a.e I]
+      [64] aload_0 v0
+      [65] invokevirtual #29
+        + Methodref [com/example/NiePaoPao/MyActivity.getWindow ()Landroid/view/Window;]
+      [68] bipush -3
+      [70] invokevirtual #28
+        + Methodref [android/view/Window.setFormat (I)V]
+      [73] aload_0 v0
+      [74] new #10
+        + Class [com/example/NiePaoPao/d]
+      [77] dup
+      [78] aload_0 v0
+      [79] invokespecial #34
+        + Methodref [com/example/NiePaoPao/d.<init> (Lcom/example/NiePaoPao/MyActivity;)V]
+      [82] putfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [85] aload_0 v0
+      [86] aload_0 v0
+      [87] getfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [90] invokevirtual #32
+        + Methodref [com/example/NiePaoPao/MyActivity.setContentView (Landroid/view/View;)V]
+      [93] aload_0 v0
+      [94] getfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [97] invokevirtual #37
+        + Methodref [com/example/NiePaoPao/d.requestFocus ()Z]
+      [100] pop
+      [101] aload_0 v0
+      [102] getfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [105] iconst_1
+      [106] invokevirtual #38
+        + Methodref [com/example/NiePaoPao/d.setFocusableInTouchMode (Z)V]
+      [109] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onStart()V
+    Access flags: 0x4
+      = protected void onStart()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 20, locals = 1, stack = 2):
+      [0] aload_0 v0
+      [1] invokespecial #22
+        + Methodref [android/app/Activity.onStart ()V]
+      [4] getstatic #16
+        + Fieldref [com/example/NiePaoPao/a.k Landroid/media/MediaPlayer;]
+      [7] ifnonnull +12 (target=19)
+      [10] aload_0 v0
+      [11] ldc #1
+        + Integer [2130968576]
+      [13] invokestatic #24
+        + Methodref [android/media/MediaPlayer.create (Landroid/content/Context;I)Landroid/media/MediaPlayer;]
+      [16] putstatic #16
+        + Fieldref [com/example/NiePaoPao/a.k Landroid/media/MediaPlayer;]
+      [19] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [19] Var: ..., Stack: (empty)
+  + Method:       onStop()V
+    Access flags: 0x4
+      = protected void onStop()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #23
+        + Methodref [android/app/Activity.onStop ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onResume()V
+    Access flags: 0x4
+      = protected void onResume()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #21
+        + Methodref [android/app/Activity.onResume ()V]
+      [4] aload_0 v0
+      [5] getfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [8] invokevirtual #36
+        + Methodref [com/example/NiePaoPao/d.onResume ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onPause()V
+    Access flags: 0x4
+      = protected void onPause()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 12, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #20
+        + Methodref [android/app/Activity.onPause ()V]
+      [4] aload_0 v0
+      [5] getfield #13
+        + Fieldref [com/example/NiePaoPao/MyActivity.a Lcom/example/NiePaoPao/d;]
+      [8] invokevirtual #35
+        + Methodref [com/example/NiePaoPao/d.onPause ()V]
+      [11] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDestroy()V
+    Access flags: 0x1
+      = public void onDestroy()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 1, stack = 1):
+      [0] aload_0 v0
+      [1] invokespecial #19
+        + Methodref [android/app/Activity.onDestroy ()V]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/d
+  Superclass:    android/opengl/GLSurfaceView
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x21
+    = public class com.example.NiePaoPao.d extends android.opengl.GLSurfaceView
+
+Interfaces (count = 0):
+
+Constant Pool (count = 165):
+  + Float [9728.0]
+  + Float [9729.0]
+  + Float [33071.0]
+  + Class [[I]
+  + Class [[[Z]
+  + Class [android/content/Context]
+  + Class [android/content/res/Resources]
+  + Class [android/graphics/Bitmap]
+  + Class [android/graphics/BitmapFactory]
+  + Class [android/media/MediaPlayer]
+  + Class [android/opengl/GLSurfaceView]
+  + Class [android/opengl/GLUtils]
+  + Class [android/view/MotionEvent]
+  + Class [com/example/NiePaoPao/MyActivity]
+  + Class [com/example/NiePaoPao/a]
+  + Class [com/example/NiePaoPao/d]
+  + Class [com/example/NiePaoPao/f]
+  + Class [java/io/IOException]
+  + Class [java/io/InputStream]
+  + Class [java/lang/Throwable]
+  + Class [javax/microedition/khronos/opengles/GL10]
+  + Fieldref [com/example/NiePaoPao/a.k Landroid/media/MediaPlayer;]
+  + Fieldref [com/example/NiePaoPao/d.c Landroid/content/Context;]
+  + Fieldref [com/example/NiePaoPao/d.d Z]
+  + Fieldref [com/example/NiePaoPao/d.e [[Z]
+  + Fieldref [com/example/NiePaoPao/d.f I]
+  + Fieldref [com/example/NiePaoPao/d.g I]
+  + Fieldref [com/example/NiePaoPao/d.h I]
+  + Fieldref [com/example/NiePaoPao/d.i I]
+  + Fieldref [com/example/NiePaoPao/d.j I]
+  + Fieldref [com/example/NiePaoPao/d.k I]
+  + Fieldref [com/example/NiePaoPao/d.l Lcom/example/NiePaoPao/f;]
+  + Methodref [android/content/Context.getResources ()Landroid/content/res/Resources;]
+  + Methodref [android/content/res/Resources.openRawResource (I)Ljava/io/InputStream;]
+  + Methodref [android/graphics/Bitmap.recycle ()V]
+  + Methodref [android/graphics/BitmapFactory.decodeStream (Ljava/io/InputStream;)Landroid/graphics/Bitmap;]
+  + Methodref [android/media/MediaPlayer.start ()V]
+  + Methodref [android/opengl/GLSurfaceView.<init> (Landroid/content/Context;)V]
+  + Methodref [android/opengl/GLUtils.texImage2D (IILandroid/graphics/Bitmap;I)V]
+  + Methodref [android/view/MotionEvent.getAction ()I]
+  + Methodref [android/view/MotionEvent.getX ()F]
+  + Methodref [android/view/MotionEvent.getY ()F]
+  + Methodref [com/example/NiePaoPao/d.a (Landroid/view/MotionEvent;)V]
+  + Methodref [com/example/NiePaoPao/d.a (Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + Methodref [com/example/NiePaoPao/d.getContext ()Landroid/content/Context;]
+  + Methodref [com/example/NiePaoPao/d.setRenderMode (I)V]
+  + Methodref [com/example/NiePaoPao/d.setRenderer (Landroid/opengl/GLSurfaceView$Renderer;)V]
+  + Methodref [com/example/NiePaoPao/f.<init> (Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V]
+  + Methodref [java/io/IOException.printStackTrace ()V]
+  + Methodref [java/io/InputStream.close ()V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glGenTextures (I[II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexParameterf (IIF)V]
+  + NameAndType [<init> (Landroid/content/Context;)V]
+  + NameAndType [<init> (Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V]
+  + NameAndType [a (Landroid/view/MotionEvent;)V]
+  + NameAndType [a (Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + NameAndType [c Landroid/content/Context;]
+  + NameAndType [close ()V]
+  + NameAndType [d Z]
+  + NameAndType [decodeStream (Ljava/io/InputStream;)Landroid/graphics/Bitmap;]
+  + NameAndType [e [[Z]
+  + NameAndType [f I]
+  + NameAndType [g I]
+  + NameAndType [getAction ()I]
+  + NameAndType [getContext ()Landroid/content/Context;]
+  + NameAndType [getResources ()Landroid/content/res/Resources;]
+  + NameAndType [getX ()F]
+  + NameAndType [getY ()F]
+  + NameAndType [glBindTexture (II)V]
+  + NameAndType [glGenTextures (I[II)V]
+  + NameAndType [glTexParameterf (IIF)V]
+  + NameAndType [h I]
+  + NameAndType [i I]
+  + NameAndType [j I]
+  + NameAndType [k I]
+  + NameAndType [k Landroid/media/MediaPlayer;]
+  + NameAndType [l Lcom/example/NiePaoPao/f;]
+  + NameAndType [openRawResource (I)Ljava/io/InputStream;]
+  + NameAndType [printStackTrace ()V]
+  + NameAndType [recycle ()V]
+  + NameAndType [setRenderMode (I)V]
+  + NameAndType [setRenderer (Landroid/opengl/GLSurfaceView$Renderer;)V]
+  + NameAndType [start ()V]
+  + NameAndType [texImage2D (IILandroid/graphics/Bitmap;I)V]
+  + Utf8 [()F]
+  + Utf8 [()I]
+  + Utf8 [()Landroid/content/Context;]
+  + Utf8 [()Landroid/content/res/Resources;]
+  + Utf8 [()V]
+  + Utf8 [(I)Ljava/io/InputStream;]
+  + Utf8 [(I)V]
+  + Utf8 [(II)V]
+  + Utf8 [(IIF)V]
+  + Utf8 [(IILandroid/graphics/Bitmap;I)V]
+  + Utf8 [(I[II)V]
+  + Utf8 [(Landroid/content/Context;)V]
+  + Utf8 [(Landroid/opengl/GLSurfaceView$Renderer;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)V]
+  + Utf8 [(Landroid/view/MotionEvent;)Z]
+  + Utf8 [(Lcom/example/NiePaoPao/MyActivity;)V]
+  + Utf8 [(Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V]
+  + Utf8 [(Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + Utf8 [(Ljava/io/InputStream;)Landroid/graphics/Bitmap;]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + Utf8 [<clinit>]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [I]
+  + Utf8 [Landroid/content/Context;]
+  + Utf8 [Landroid/media/MediaPlayer;]
+  + Utf8 [Lcom/example/NiePaoPao/b;]
+  + Utf8 [Lcom/example/NiePaoPao/c;]
+  + Utf8 [Lcom/example/NiePaoPao/f;]
+  + Utf8 [StackMapTable]
+  + Utf8 [Z]
+  + Utf8 [[I]
+  + Utf8 [[[Z]
+  + Utf8 [a]
+  + Utf8 [android/content/Context]
+  + Utf8 [android/content/res/Resources]
+  + Utf8 [android/graphics/Bitmap]
+  + Utf8 [android/graphics/BitmapFactory]
+  + Utf8 [android/media/MediaPlayer]
+  + Utf8 [android/opengl/GLSurfaceView]
+  + Utf8 [android/opengl/GLUtils]
+  + Utf8 [android/view/MotionEvent]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [close]
+  + Utf8 [com/example/NiePaoPao/MyActivity]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [com/example/NiePaoPao/d]
+  + Utf8 [com/example/NiePaoPao/f]
+  + Utf8 [d]
+  + Utf8 [decodeStream]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [getAction]
+  + Utf8 [getContext]
+  + Utf8 [getResources]
+  + Utf8 [getX]
+  + Utf8 [getY]
+  + Utf8 [glBindTexture]
+  + Utf8 [glGenTextures]
+  + Utf8 [glTexParameterf]
+  + Utf8 [h]
+  + Utf8 [i]
+  + Utf8 [j]
+  + Utf8 [java/io/IOException]
+  + Utf8 [java/io/InputStream]
+  + Utf8 [java/lang/Throwable]
+  + Utf8 [javax/microedition/khronos/opengles/GL10]
+  + Utf8 [k]
+  + Utf8 [l]
+  + Utf8 [onTouchEvent]
+  + Utf8 [openRawResource]
+  + Utf8 [printStackTrace]
+  + Utf8 [recycle]
+  + Utf8 [setRenderMode]
+  + Utf8 [setRenderer]
+  + Utf8 [start]
+  + Utf8 [texImage2D]
+
+Fields (count = 12):
+  + Field:        a Lcom/example/NiePaoPao/b;
+    Access flags: 0x0
+      = com.example.NiePaoPao.b a
+  + Field:        b Lcom/example/NiePaoPao/c;
+    Access flags: 0x0
+      = com.example.NiePaoPao.c b
+  + Field:        l Lcom/example/NiePaoPao/f;
+    Access flags: 0x2
+      = private com.example.NiePaoPao.f l
+  + Field:        c Landroid/content/Context;
+    Access flags: 0x0
+      = android.content.Context c
+  + Field:        d Z
+    Access flags: 0x8
+      = static boolean d
+  + Field:        e [[Z
+    Access flags: 0x0
+      = boolean[][] e
+  + Field:        f I
+    Access flags: 0x0
+      = int f
+  + Field:        g I
+    Access flags: 0x0
+      = int g
+  + Field:        h I
+    Access flags: 0x0
+      = int h
+  + Field:        i I
+    Access flags: 0x0
+      = int i
+  + Field:        j I
+    Access flags: 0x0
+      = int j
+  + Field:        k I
+    Access flags: 0x0
+      = int k
+
+Methods (count = 6):
+  - Method:       <init>(Lcom/example/NiePaoPao/MyActivity;)V
+    Access flags: 0x1
+      = public d(com.example.NiePaoPao.MyActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 119, locals = 4, stack = 5):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #38
+        + Methodref [android/opengl/GLSurfaceView.<init> (Landroid/content/Context;)V]
+      [5] aload_0 v0
+      [6] bipush 7
+      [8] bipush 7
+      [10] multianewarray #5
+        + Class [[[Z]
+      [14] putfield #25
+        + Fieldref [com/example/NiePaoPao/d.e [[Z]
+      [17] aload_0 v0
+      [18] iconst_0
+      [19] putfield #26
+        + Fieldref [com/example/NiePaoPao/d.f I]
+      [22] aload_0 v0
+      [23] iconst_0
+      [24] putfield #27
+        + Fieldref [com/example/NiePaoPao/d.g I]
+      [27] aload_0 v0
+      [28] iconst_0
+      [29] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [32] aload_0 v0
+      [33] iconst_0
+      [34] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [37] aload_0 v0
+      [38] iconst_0
+      [39] putfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [42] aload_0 v0
+      [43] iconst_0
+      [44] putfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [47] aload_0 v0
+      [48] aload_0 v0
+      [49] invokevirtual #45
+        + Methodref [com/example/NiePaoPao/d.getContext ()Landroid/content/Context;]
+      [52] putfield #23
+        + Fieldref [com/example/NiePaoPao/d.c Landroid/content/Context;]
+      [55] aload_0 v0
+      [56] new #17
+        + Class [com/example/NiePaoPao/f]
+      [59] dup
+      [60] aload_0 v0
+      [61] aconst_null
+      [62] invokespecial #48
+        + Methodref [com/example/NiePaoPao/f.<init> (Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V]
+      [65] putfield #32
+        + Fieldref [com/example/NiePaoPao/d.l Lcom/example/NiePaoPao/f;]
+      [68] aload_0 v0
+      [69] aload_0 v0
+      [70] getfield #32
+        + Fieldref [com/example/NiePaoPao/d.l Lcom/example/NiePaoPao/f;]
+      [73] invokevirtual #47
+        + Methodref [com/example/NiePaoPao/d.setRenderer (Landroid/opengl/GLSurfaceView$Renderer;)V]
+      [76] aload_0 v0
+      [77] iconst_1
+      [78] invokevirtual #46
+        + Methodref [com/example/NiePaoPao/d.setRenderMode (I)V]
+      [81] iconst_0
+      [82] istore_2 v2
+      [83] iload_2 v2
+      [84] bipush 7
+      [86] ificmpge +32 (target=118)
+      [89] iconst_0
+      [90] istore_3 v3
+      [91] iload_3 v3
+      [92] bipush 7
+      [94] ificmpge +18 (target=112)
+      [97] aload_0 v0
+      [98] getfield #25
+        + Fieldref [com/example/NiePaoPao/d.e [[Z]
+      [101] iload_2 v2
+      [102] aaload
+      [103] iload_3 v3
+      [104] iconst_0
+      [105] bastore
+      [106] iinc v3, 1
+      [109] goto -18 (target=91)
+      [112] iinc v2, 1
+      [115] goto -32 (target=83)
+      [118] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 4):
+        - [83] Var: [a:com/example/NiePaoPao/d][a:com/example/NiePaoPao/MyActivity][i], Stack: 
+        - [91] Var: ...[i], Stack: (empty)
+        - [112] Var: -1, Stack: (empty)
+        - [118] Var: -1, Stack: (empty)
+  + Method:       onTouchEvent(Landroid/view/MotionEvent;)Z
+    Access flags: 0x1
+      = public boolean onTouchEvent(android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 68, locals = 2, stack = 3):
+      [0] aload_1 v1
+      [1] invokevirtual #40
+        + Methodref [android/view/MotionEvent.getAction ()I]
+      [4] ifne +62 (target=66)
+      [7] aload_0 v0
+      [8] aload_1 v1
+      [9] invokevirtual #43
+        + Methodref [com/example/NiePaoPao/d.a (Landroid/view/MotionEvent;)V]
+      [12] aload_0 v0
+      [13] getfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [16] iconst_m1
+      [17] ificmpeq +49 (target=66)
+      [20] aload_0 v0
+      [21] getfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [24] iconst_m1
+      [25] ificmpeq +41 (target=66)
+      [28] aload_0 v0
+      [29] getfield #25
+        + Fieldref [com/example/NiePaoPao/d.e [[Z]
+      [32] aload_0 v0
+      [33] getfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [36] aaload
+      [37] aload_0 v0
+      [38] getfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [41] baload
+      [42] ifne +24 (target=66)
+      [45] aload_0 v0
+      [46] getfield #25
+        + Fieldref [com/example/NiePaoPao/d.e [[Z]
+      [49] aload_0 v0
+      [50] getfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [53] aaload
+      [54] aload_0 v0
+      [55] getfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [58] iconst_1
+      [59] bastore
+      [60] getstatic #22
+        + Fieldref [com/example/NiePaoPao/a.k Landroid/media/MediaPlayer;]
+      [63] invokevirtual #37
+        + Methodref [android/media/MediaPlayer.start ()V]
+      [66] iconst_1
+      [67] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 1):
+        - [66] Var: ..., Stack: (empty)
+  + Method:       a(Ljavax/microedition/khronos/opengles/GL10;I)I
+    Access flags: 0x2
+      = private int a(javax.microedition.khronos.opengles.GL10,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 161, locals = 10, stack = 4):
+      [0] iconst_1
+      [1] newarray 10
+      [3] astore_3 v3
+      [4] aload_1 v1
+      [5] iconst_1
+      [6] aload_3 v3
+      [7] iconst_0
+      [8] invokeinterface #52
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glGenTextures (I[II)V]
+      [13] aload_3 v3
+      [14] iconst_0
+      [15] iaload
+      [16] istore v4
+      [18] aload_1 v1
+      [19] sipush 3553
+      [22] iload v4
+      [24] invokeinterface #51
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBindTexture (II)V]
+      [29] aload_1 v1
+      [30] sipush 3553
+      [33] sipush 10241
+      [36] ldc #1
+        + Float [9728.0]
+      [38] invokeinterface #53
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexParameterf (IIF)V]
+      [43] aload_1 v1
+      [44] sipush 3553
+      [47] sipush 10240
+      [50] ldc #2
+        + Float [9729.0]
+      [52] invokeinterface #53
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexParameterf (IIF)V]
+      [57] aload_1 v1
+      [58] sipush 3553
+      [61] sipush 10242
+      [64] ldc #3
+        + Float [33071.0]
+      [66] invokeinterface #53
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexParameterf (IIF)V]
+      [71] aload_1 v1
+      [72] sipush 3553
+      [75] sipush 10243
+      [78] ldc #3
+        + Float [33071.0]
+      [80] invokeinterface #53
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTexParameterf (IIF)V]
+      [85] aload_0 v0
+      [86] getfield #23
+        + Fieldref [com/example/NiePaoPao/d.c Landroid/content/Context;]
+      [89] invokevirtual #33
+        + Methodref [android/content/Context.getResources ()Landroid/content/res/Resources;]
+      [92] iload_2 v2
+      [93] invokevirtual #34
+        + Methodref [android/content/res/Resources.openRawResource (I)Ljava/io/InputStream;]
+      [96] astore v5
+      [98] aload v5
+      [100] invokestatic #36
+        + Methodref [android/graphics/BitmapFactory.decodeStream (Ljava/io/InputStream;)Landroid/graphics/Bitmap;]
+      [103] astore v6
+      [105] aload v5
+      [107] invokevirtual #50
+        + Methodref [java/io/InputStream.close ()V]
+      [110] goto +33 (target=143)
+      [113] astore v7
+      [115] aload v7
+      [117] invokevirtual #49
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [120] goto +23 (target=143)
+      [123] astore v8
+      [125] aload v5
+      [127] invokevirtual #50
+        + Methodref [java/io/InputStream.close ()V]
+      [130] goto +10 (target=140)
+      [133] astore v9
+      [135] aload v9
+      [137] invokevirtual #49
+        + Methodref [java/io/IOException.printStackTrace ()V]
+      [140] aload v8
+      [142] athrow
+      [143] sipush 3553
+      [146] iconst_0
+      [147] aload v6
+      [149] iconst_0
+      [150] invokestatic #39
+        + Methodref [android/opengl/GLUtils.texImage2D (IILandroid/graphics/Bitmap;I)V]
+      [153] aload v6
+      [155] invokevirtual #35
+        + Methodref [android/graphics/Bitmap.recycle ()V]
+      [158] iload v4
+      [160] ireturn
+      Code attribute exceptions (count = 4):
+      - ExceptionInfo (105 -> 110: 113):
+      + Class [java/io/IOException]
+      - ExceptionInfo (98 -> 105: 123):
+      - ExceptionInfo (125 -> 130: 133):
+      + Class [java/io/IOException]
+      - ExceptionInfo (123 -> 125: 123):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [113] Var: [a:com/example/NiePaoPao/d][a:javax/microedition/khronos/opengles/GL10][i][a:[I][i][a:java/io/InputStream][a:android/graphics/Bitmap], Stack: [a:java/io/IOException]
+        - [123] Var: [a:com/example/NiePaoPao/d][a:javax/microedition/khronos/opengles/GL10][i][a:[I][i][a:java/io/InputStream], Stack: [a:java/lang/Throwable]
+        - [133] Var: [a:com/example/NiePaoPao/d][a:javax/microedition/khronos/opengles/GL10][i][a:[I][i][a:java/io/InputStream][T][T][a:java/lang/Throwable], Stack: [a:java/io/IOException]
+        - [140] Var: ..., Stack: (empty)
+        - [143] Var: [a:com/example/NiePaoPao/d][a:javax/microedition/khronos/opengles/GL10][i][a:[I][i][a:java/io/InputStream][a:android/graphics/Bitmap], Stack: 
+  + Method:       a(Landroid/view/MotionEvent;)V
+    Access flags: 0x1
+      = public void a(android.view.MotionEvent)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 520, locals = 4, stack = 4):
+      [0] aload_1 v1
+      [1] invokevirtual #42
+        + Methodref [android/view/MotionEvent.getY ()F]
+      [4] fstore_2 v2
+      [5] aload_1 v1
+      [6] invokevirtual #41
+        + Methodref [android/view/MotionEvent.getX ()F]
+      [9] fstore_3 v3
+      [10] aload_0 v0
+      [11] iconst_m1
+      [12] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [15] aload_0 v0
+      [16] iconst_m1
+      [17] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [20] fload_3 v3
+      [21] fconst_0
+      [22] fcmpl
+      [23] iflt +21 (target=44)
+      [26] fload_3 v3
+      [27] aload_0 v0
+      [28] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [31] i2f
+      [32] fcmpg
+      [33] ifge +11 (target=44)
+      [36] aload_0 v0
+      [37] iconst_0
+      [38] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [41] goto +194 (target=235)
+      [44] fload_3 v3
+      [45] aload_0 v0
+      [46] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [49] i2f
+      [50] fcmpl
+      [51] iflt +23 (target=74)
+      [54] fload_3 v3
+      [55] iconst_2
+      [56] aload_0 v0
+      [57] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [60] imul
+      [61] i2f
+      [62] fcmpg
+      [63] ifge +11 (target=74)
+      [66] aload_0 v0
+      [67] iconst_1
+      [68] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [71] goto +164 (target=235)
+      [74] fload_3 v3
+      [75] iconst_2
+      [76] aload_0 v0
+      [77] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [80] imul
+      [81] i2f
+      [82] fcmpl
+      [83] iflt +23 (target=106)
+      [86] fload_3 v3
+      [87] iconst_3
+      [88] aload_0 v0
+      [89] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [92] imul
+      [93] i2f
+      [94] fcmpg
+      [95] ifge +11 (target=106)
+      [98] aload_0 v0
+      [99] iconst_2
+      [100] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [103] goto +132 (target=235)
+      [106] fload_3 v3
+      [107] iconst_3
+      [108] aload_0 v0
+      [109] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [112] imul
+      [113] i2f
+      [114] fcmpl
+      [115] iflt +23 (target=138)
+      [118] fload_3 v3
+      [119] iconst_4
+      [120] aload_0 v0
+      [121] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [124] imul
+      [125] i2f
+      [126] fcmpg
+      [127] ifge +11 (target=138)
+      [130] aload_0 v0
+      [131] iconst_3
+      [132] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [135] goto +100 (target=235)
+      [138] fload_3 v3
+      [139] iconst_4
+      [140] aload_0 v0
+      [141] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [144] imul
+      [145] i2f
+      [146] fcmpl
+      [147] iflt +23 (target=170)
+      [150] fload_3 v3
+      [151] iconst_5
+      [152] aload_0 v0
+      [153] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [156] imul
+      [157] i2f
+      [158] fcmpg
+      [159] ifge +11 (target=170)
+      [162] aload_0 v0
+      [163] iconst_4
+      [164] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [167] goto +68 (target=235)
+      [170] fload_3 v3
+      [171] iconst_5
+      [172] aload_0 v0
+      [173] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [176] imul
+      [177] i2f
+      [178] fcmpl
+      [179] iflt +24 (target=203)
+      [182] fload_3 v3
+      [183] bipush 6
+      [185] aload_0 v0
+      [186] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [189] imul
+      [190] i2f
+      [191] fcmpg
+      [192] ifge +11 (target=203)
+      [195] aload_0 v0
+      [196] iconst_5
+      [197] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [200] goto +35 (target=235)
+      [203] fload_3 v3
+      [204] bipush 6
+      [206] aload_0 v0
+      [207] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [210] imul
+      [211] i2f
+      [212] fcmpl
+      [213] iflt +22 (target=235)
+      [216] fload_3 v3
+      [217] bipush 7
+      [219] aload_0 v0
+      [220] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [223] imul
+      [224] i2f
+      [225] fcmpg
+      [226] ifge +9 (target=235)
+      [229] aload_0 v0
+      [230] bipush 6
+      [232] putfield #28
+        + Fieldref [com/example/NiePaoPao/d.h I]
+      [235] fload_2 v2
+      [236] aload_0 v0
+      [237] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [240] i2f
+      [241] fcmpl
+      [242] iflt +27 (target=269)
+      [245] fload_2 v2
+      [246] aload_0 v0
+      [247] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [250] aload_0 v0
+      [251] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [254] iadd
+      [255] i2f
+      [256] fcmpg
+      [257] ifge +12 (target=269)
+      [260] aload_0 v0
+      [261] bipush 6
+      [263] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [266] goto +253 (target=519)
+      [269] fload_2 v2
+      [270] aload_0 v0
+      [271] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [274] aload_0 v0
+      [275] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [278] iadd
+      [279] i2f
+      [280] fcmpl
+      [281] iflt +28 (target=309)
+      [284] fload_2 v2
+      [285] aload_0 v0
+      [286] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [289] iconst_2
+      [290] aload_0 v0
+      [291] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [294] imul
+      [295] iadd
+      [296] i2f
+      [297] fcmpg
+      [298] ifge +11 (target=309)
+      [301] aload_0 v0
+      [302] iconst_5
+      [303] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [306] goto +213 (target=519)
+      [309] fload_2 v2
+      [310] aload_0 v0
+      [311] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [314] iconst_2
+      [315] aload_0 v0
+      [316] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [319] imul
+      [320] iadd
+      [321] i2f
+      [322] fcmpl
+      [323] iflt +28 (target=351)
+      [326] fload_2 v2
+      [327] aload_0 v0
+      [328] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [331] iconst_3
+      [332] aload_0 v0
+      [333] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [336] imul
+      [337] iadd
+      [338] i2f
+      [339] fcmpg
+      [340] ifge +11 (target=351)
+      [343] aload_0 v0
+      [344] iconst_4
+      [345] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [348] goto +171 (target=519)
+      [351] fload_2 v2
+      [352] aload_0 v0
+      [353] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [356] iconst_3
+      [357] aload_0 v0
+      [358] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [361] imul
+      [362] iadd
+      [363] i2f
+      [364] fcmpl
+      [365] iflt +28 (target=393)
+      [368] fload_2 v2
+      [369] aload_0 v0
+      [370] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [373] iconst_4
+      [374] aload_0 v0
+      [375] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [378] imul
+      [379] iadd
+      [380] i2f
+      [381] fcmpg
+      [382] ifge +11 (target=393)
+      [385] aload_0 v0
+      [386] iconst_3
+      [387] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [390] goto +129 (target=519)
+      [393] fload_2 v2
+      [394] aload_0 v0
+      [395] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [398] iconst_4
+      [399] aload_0 v0
+      [400] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [403] imul
+      [404] iadd
+      [405] i2f
+      [406] fcmpl
+      [407] iflt +28 (target=435)
+      [410] fload_2 v2
+      [411] aload_0 v0
+      [412] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [415] iconst_5
+      [416] aload_0 v0
+      [417] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [420] imul
+      [421] iadd
+      [422] i2f
+      [423] fcmpg
+      [424] ifge +11 (target=435)
+      [427] aload_0 v0
+      [428] iconst_2
+      [429] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [432] goto +87 (target=519)
+      [435] fload_2 v2
+      [436] aload_0 v0
+      [437] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [440] iconst_5
+      [441] aload_0 v0
+      [442] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [445] imul
+      [446] iadd
+      [447] i2f
+      [448] fcmpl
+      [449] iflt +29 (target=478)
+      [452] fload_2 v2
+      [453] aload_0 v0
+      [454] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [457] bipush 6
+      [459] aload_0 v0
+      [460] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [463] imul
+      [464] iadd
+      [465] i2f
+      [466] fcmpg
+      [467] ifge +11 (target=478)
+      [470] aload_0 v0
+      [471] iconst_1
+      [472] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [475] goto +44 (target=519)
+      [478] fload_2 v2
+      [479] aload_0 v0
+      [480] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [483] bipush 6
+      [485] aload_0 v0
+      [486] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [489] imul
+      [490] iadd
+      [491] i2f
+      [492] fcmpl
+      [493] iflt +26 (target=519)
+      [496] fload_2 v2
+      [497] aload_0 v0
+      [498] getfield #31
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [501] bipush 7
+      [503] aload_0 v0
+      [504] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [507] imul
+      [508] iadd
+      [509] i2f
+      [510] fcmpg
+      [511] ifge +8 (target=519)
+      [514] aload_0 v0
+      [515] iconst_0
+      [516] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.i I]
+      [519] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 14):
+        - [44] Var: ...[f][f], Stack: (empty)
+        - [74] Var: ..., Stack: (empty)
+        - [106] Var: ..., Stack: (empty)
+        - [138] Var: ..., Stack: (empty)
+        - [170] Var: ..., Stack: (empty)
+        - [203] Var: ..., Stack: (empty)
+        - [235] Var: ..., Stack: (empty)
+        - [269] Var: ..., Stack: (empty)
+        - [309] Var: ..., Stack: (empty)
+        - [351] Var: ..., Stack: (empty)
+        - [393] Var: ..., Stack: (empty)
+        - [435] Var: ..., Stack: (empty)
+        - [478] Var: ..., Stack: (empty)
+        - [519] Var: ..., Stack: (empty)
+  + Method:       a(Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I
+    Access flags: 0x1008
+      = static synthetic int a(com.example.NiePaoPao.d,javax.microedition.khronos.opengles.GL10,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 7, locals = 3, stack = 3):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] iload_2 v2
+      [3] invokespecial #44
+        + Methodref [com/example/NiePaoPao/d.a (Ljavax/microedition/khronos/opengles/GL10;I)I]
+      [6] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <clinit>()V
+    Access flags: 0x8
+      = static void <clinit>()
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 5, locals = 0, stack = 1):
+      [0] iconst_0
+      [1] putstatic #24
+        + Fieldref [com/example/NiePaoPao/d.d Z]
+      [4] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/e
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x1020
+    = synthetic class com.example.NiePaoPao.e extends java.lang.Object
+
+Interfaces (count = 0):
+
+Constant Pool (count = 5):
+  + Class [com/example/NiePaoPao/e]
+  + Class [java/lang/Object]
+  + Utf8 [com/example/NiePaoPao/e]
+  + Utf8 [java/lang/Object]
+
+Fields (count = 0):
+
+Methods (count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/example/NiePaoPao/f
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.example.NiePaoPao.f extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/opengl/GLSurfaceView$Renderer]
+
+Constant Pool (count = 146):
+  + Integer [2130837505]
+  + Integer [2130837507]
+  + Float [-10.0]
+  + Float [-3.5]
+  + Float [0.1]
+  + Float [3.5]
+  + Float [7.0]
+  + Float [10.0]
+  + Float [100.0]
+  + Class [android/opengl/GLSurfaceView$Renderer]
+  + Class [com/example/NiePaoPao/a]
+  + Class [com/example/NiePaoPao/b]
+  + Class [com/example/NiePaoPao/c]
+  + Class [com/example/NiePaoPao/d]
+  + Class [com/example/NiePaoPao/f]
+  + Class [java/lang/Object]
+  + Class [javax/microedition/khronos/opengles/GL10]
+  + Fieldref [com/example/NiePaoPao/a.a I]
+  + Fieldref [com/example/NiePaoPao/a.b I]
+  + Fieldref [com/example/NiePaoPao/a.c I]
+  + Fieldref [com/example/NiePaoPao/a.d I]
+  + Fieldref [com/example/NiePaoPao/a.e I]
+  + Fieldref [com/example/NiePaoPao/a.f I]
+  + Fieldref [com/example/NiePaoPao/a.g F]
+  + Fieldref [com/example/NiePaoPao/a.h F]
+  + Fieldref [com/example/NiePaoPao/d.a Lcom/example/NiePaoPao/b;]
+  + Fieldref [com/example/NiePaoPao/d.b Lcom/example/NiePaoPao/c;]
+  + Fieldref [com/example/NiePaoPao/d.e [[Z]
+  + Fieldref [com/example/NiePaoPao/d.f I]
+  + Fieldref [com/example/NiePaoPao/d.g I]
+  + Fieldref [com/example/NiePaoPao/d.j I]
+  + Fieldref [com/example/NiePaoPao/d.k I]
+  + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+  + Methodref [com/example/NiePaoPao/b.<init> (I)V]
+  + Methodref [com/example/NiePaoPao/b.a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + Methodref [com/example/NiePaoPao/c.<init> (I)V]
+  + Methodref [com/example/NiePaoPao/c.a (Ljavax/microedition/khronos/opengles/GL10;)V]
+  + Methodref [com/example/NiePaoPao/d.a (Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + Methodref [com/example/NiePaoPao/f.<init> (Lcom/example/NiePaoPao/d;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glAlphaFunc (IF)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBlendFunc (II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glClear (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glClearColor (FFFF)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glHint (II)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glLoadIdentity ()V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glMatrixMode (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glOrthof (FFFFFF)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glShadeModel (I)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTranslatef (FFF)V]
+  + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glViewport (IIII)V]
+  + NameAndType [<init> ()V]
+  + NameAndType [<init> (I)V]
+  + NameAndType [<init> (Lcom/example/NiePaoPao/d;)V]
+  + NameAndType [a (Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + NameAndType [a (Ljavax/microedition/khronos/opengles/GL10;)V]
+  + NameAndType [a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + NameAndType [a I]
+  + NameAndType [a Lcom/example/NiePaoPao/b;]
+  + NameAndType [a Lcom/example/NiePaoPao/d;]
+  + NameAndType [b I]
+  + NameAndType [b Lcom/example/NiePaoPao/c;]
+  + NameAndType [c I]
+  + NameAndType [d I]
+  + NameAndType [e I]
+  + NameAndType [e [[Z]
+  + NameAndType [f I]
+  + NameAndType [g F]
+  + NameAndType [g I]
+  + NameAndType [glAlphaFunc (IF)V]
+  + NameAndType [glBlendFunc (II)V]
+  + NameAndType [glClear (I)V]
+  + NameAndType [glClearColor (FFFF)V]
+  + NameAndType [glDisable (I)V]
+  + NameAndType [glEnable (I)V]
+  + NameAndType [glHint (II)V]
+  + NameAndType [glLoadIdentity ()V]
+  + NameAndType [glMatrixMode (I)V]
+  + NameAndType [glOrthof (FFFFFF)V]
+  + NameAndType [glShadeModel (I)V]
+  + NameAndType [glTranslatef (FFF)V]
+  + NameAndType [glViewport (IIII)V]
+  + NameAndType [h F]
+  + NameAndType [j I]
+  + NameAndType [k I]
+  + Utf8 [()V]
+  + Utf8 [(FFF)V]
+  + Utf8 [(FFFF)V]
+  + Utf8 [(FFFFFF)V]
+  + Utf8 [(I)V]
+  + Utf8 [(IF)V]
+  + Utf8 [(II)V]
+  + Utf8 [(IIII)V]
+  + Utf8 [(Lcom/example/NiePaoPao/d;)V]
+  + Utf8 [(Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V]
+  + Utf8 [(Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;)V]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;II)V]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;III)V]
+  + Utf8 [(Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [F]
+  + Utf8 [I]
+  + Utf8 [Lcom/example/NiePaoPao/b;]
+  + Utf8 [Lcom/example/NiePaoPao/c;]
+  + Utf8 [Lcom/example/NiePaoPao/d;]
+  + Utf8 [StackMapTable]
+  + Utf8 [[[Z]
+  + Utf8 [a]
+  + Utf8 [android/opengl/GLSurfaceView$Renderer]
+  + Utf8 [b]
+  + Utf8 [c]
+  + Utf8 [com/example/NiePaoPao/a]
+  + Utf8 [com/example/NiePaoPao/b]
+  + Utf8 [com/example/NiePaoPao/c]
+  + Utf8 [com/example/NiePaoPao/d]
+  + Utf8 [com/example/NiePaoPao/f]
+  + Utf8 [d]
+  + Utf8 [e]
+  + Utf8 [f]
+  + Utf8 [g]
+  + Utf8 [glAlphaFunc]
+  + Utf8 [glBlendFunc]
+  + Utf8 [glClear]
+  + Utf8 [glClearColor]
+  + Utf8 [glDisable]
+  + Utf8 [glEnable]
+  + Utf8 [glHint]
+  + Utf8 [glLoadIdentity]
+  + Utf8 [glMatrixMode]
+  + Utf8 [glOrthof]
+  + Utf8 [glShadeModel]
+  + Utf8 [glTranslatef]
+  + Utf8 [glViewport]
+  + Utf8 [h]
+  + Utf8 [j]
+  + Utf8 [java/lang/Object]
+  + Utf8 [javax/microedition/khronos/opengles/GL10]
+  + Utf8 [k]
+  + Utf8 [onDrawFrame]
+  + Utf8 [onSurfaceChanged]
+  + Utf8 [onSurfaceCreated]
+
+Fields (count = 1):
+  + Field:        a Lcom/example/NiePaoPao/d;
+    Access flags: 0x1010
+      = final synthetic com.example.NiePaoPao.d a
+
+Methods (count = 5):
+  - Method:       <init>(Lcom/example/NiePaoPao/d;)V
+    Access flags: 0x2
+      = private f(com.example.NiePaoPao.d)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [5] aload_0 v0
+      [6] invokespecial #40
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onDrawFrame(Ljavax/microedition/khronos/opengles/GL10;)V
+    Access flags: 0x1
+      = public void onDrawFrame(javax.microedition.khronos.opengles.GL10)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 131, locals = 4, stack = 5):
+      [0] aload_1 v1
+      [1] sipush 7425
+      [4] invokeinterface #51
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glShadeModel (I)V]
+      [9] aload_1 v1
+      [10] sipush 16640
+      [13] invokeinterface #43
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glClear (I)V]
+      [18] aload_1 v1
+      [19] sipush 5888
+      [22] invokeinterface #49
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glMatrixMode (I)V]
+      [27] aload_1 v1
+      [28] invokeinterface #48
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glLoadIdentity ()V]
+      [33] aload_1 v1
+      [34] fconst_0
+      [35] fconst_0
+      [36] ldc #3
+        + Float [-10.0]
+      [38] invokeinterface #52
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glTranslatef (FFF)V]
+      [43] iconst_0
+      [44] istore_2 v2
+      [45] iload_2 v2
+      [46] bipush 7
+      [48] ificmpge +71 (target=119)
+      [51] iconst_0
+      [52] istore_3 v3
+      [53] iload_3 v3
+      [54] bipush 7
+      [56] ificmpge +57 (target=113)
+      [59] aload_0 v0
+      [60] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [63] getfield #28
+        + Fieldref [com/example/NiePaoPao/d.e [[Z]
+      [66] iload_2 v2
+      [67] aaload
+      [68] iload_3 v3
+      [69] baload
+      [70] ifeq +23 (target=93)
+      [73] aload_0 v0
+      [74] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [77] getfield #26
+        + Fieldref [com/example/NiePaoPao/d.a Lcom/example/NiePaoPao/b;]
+      [80] aload_1 v1
+      [81] iload_2 v2
+      [82] iload_3 v3
+      [83] iadd
+      [84] iconst_3
+      [85] irem
+      [86] iconst_2
+      [87] iadd
+      [88] iload_2 v2
+      [89] iload_3 v3
+      [90] invokevirtual #35
+        + Methodref [com/example/NiePaoPao/b.a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+      [93] aload_0 v0
+      [94] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [97] getfield #26
+        + Fieldref [com/example/NiePaoPao/d.a Lcom/example/NiePaoPao/b;]
+      [100] aload_1 v1
+      [101] iconst_1
+      [102] iload_2 v2
+      [103] iload_3 v3
+      [104] invokevirtual #35
+        + Methodref [com/example/NiePaoPao/b.a (Ljavax/microedition/khronos/opengles/GL10;III)V]
+      [107] iinc v3, 1
+      [110] goto -57 (target=53)
+      [113] iinc v2, 1
+      [116] goto -71 (target=45)
+      [119] aload_0 v0
+      [120] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [123] getfield #27
+        + Fieldref [com/example/NiePaoPao/d.b Lcom/example/NiePaoPao/c;]
+      [126] aload_1 v1
+      [127] invokevirtual #37
+        + Methodref [com/example/NiePaoPao/c.a (Ljavax/microedition/khronos/opengles/GL10;)V]
+      [130] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 1):
+      + Stack map table attribute (count = 5):
+        - [45] Var: ...[i], Stack: (empty)
+        - [53] Var: ...[i], Stack: (empty)
+        - [93] Var: ..., Stack: (empty)
+        - [113] Var: -1, Stack: (empty)
+        - [119] Var: -1, Stack: (empty)
+  + Method:       onSurfaceChanged(Ljavax/microedition/khronos/opengles/GL10;II)V
+    Access flags: 0x1
+      = public void onSurfaceChanged(javax.microedition.khronos.opengles.GL10,int,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 152, locals = 4, stack = 7):
+      [0] iload_2 v2
+      [1] putstatic #21
+        + Fieldref [com/example/NiePaoPao/a.d I]
+      [4] iload_3 v3
+      [5] putstatic #22
+        + Fieldref [com/example/NiePaoPao/a.e I]
+      [8] iload_2 v2
+      [9] i2f
+      [10] iload_3 v3
+      [11] i2f
+      [12] fdiv
+      [13] putstatic #25
+        + Fieldref [com/example/NiePaoPao/a.h F]
+      [16] iload_2 v2
+      [17] i2f
+      [18] iload_3 v3
+      [19] i2f
+      [20] fdiv
+      [21] putstatic #24
+        + Fieldref [com/example/NiePaoPao/a.g F]
+      [24] getstatic #18
+        + Fieldref [com/example/NiePaoPao/a.a I]
+      [27] getstatic #20
+        + Fieldref [com/example/NiePaoPao/a.c I]
+      [30] imul
+      [31] iload_3 v3
+      [32] idiv
+      [33] iload_2 v2
+      [34] imul
+      [35] getstatic #19
+        + Fieldref [com/example/NiePaoPao/a.b I]
+      [38] idiv
+      [39] putstatic #23
+        + Fieldref [com/example/NiePaoPao/a.f I]
+      [42] aload_0 v0
+      [43] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [46] iload_2 v2
+      [47] putfield #29
+        + Fieldref [com/example/NiePaoPao/d.f I]
+      [50] aload_0 v0
+      [51] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [54] iload_3 v3
+      [55] putfield #30
+        + Fieldref [com/example/NiePaoPao/d.g I]
+      [58] aload_0 v0
+      [59] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [62] iload_2 v2
+      [63] i2f
+      [64] ldc #7
+        + Float [7.0]
+      [66] fdiv
+      [67] f2i
+      [68] putfield #31
+        + Fieldref [com/example/NiePaoPao/d.j I]
+      [71] aload_0 v0
+      [72] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [75] aload_0 v0
+      [76] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [79] getfield #30
+        + Fieldref [com/example/NiePaoPao/d.g I]
+      [82] aload_0 v0
+      [83] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [86] getfield #29
+        + Fieldref [com/example/NiePaoPao/d.f I]
+      [89] isub
+      [90] iconst_2
+      [91] idiv
+      [92] putfield #32
+        + Fieldref [com/example/NiePaoPao/d.k I]
+      [95] aload_1 v1
+      [96] iconst_0
+      [97] iconst_0
+      [98] iload_2 v2
+      [99] iload_3 v3
+      [100] invokeinterface #53
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glViewport (IIII)V]
+      [105] aload_1 v1
+      [106] sipush 5889
+      [109] invokeinterface #49
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glMatrixMode (I)V]
+      [114] aload_1 v1
+      [115] invokeinterface #48
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glLoadIdentity ()V]
+      [120] aload_1 v1
+      [121] getstatic #24
+        + Fieldref [com/example/NiePaoPao/a.g F]
+      [124] fneg
+      [125] ldc #7
+        + Float [7.0]
+      [127] fmul
+      [128] fconst_2
+      [129] fdiv
+      [130] getstatic #24
+        + Fieldref [com/example/NiePaoPao/a.g F]
+      [133] ldc #7
+        + Float [7.0]
+      [135] fmul
+      [136] fconst_2
+      [137] fdiv
+      [138] ldc #4
+        + Float [-3.5]
+      [140] ldc #6
+        + Float [3.5]
+      [142] ldc #8
+        + Float [10.0]
+      [144] ldc #9
+        + Float [100.0]
+      [146] invokeinterface #50
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glOrthof (FFFFFF)V]
+      [151] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onSurfaceCreated(Ljavax/microedition/khronos/opengles/GL10;Ljavax/microedition/khronos/egl/EGLConfig;)V
+    Access flags: 0x1
+      = public void onSurfaceCreated(javax.microedition.khronos.opengles.GL10,javax.microedition.khronos.egl.EGLConfig)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 139, locals = 3, stack = 6):
+      [0] aload_1 v1
+      [1] sipush 3024
+      [4] invokeinterface #45
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glDisable (I)V]
+      [9] aload_1 v1
+      [10] sipush 3152
+      [13] sipush 4353
+      [16] invokeinterface #47
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glHint (II)V]
+      [21] aload_1 v1
+      [22] fconst_0
+      [23] fconst_0
+      [24] fconst_0
+      [25] fconst_0
+      [26] invokeinterface #44
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glClearColor (FFFF)V]
+      [31] aload_1 v1
+      [32] sipush 7425
+      [35] invokeinterface #51
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glShadeModel (I)V]
+      [40] aload_1 v1
+      [41] sipush 2929
+      [44] invokeinterface #46
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+      [49] aload_1 v1
+      [50] sipush 3042
+      [53] invokeinterface #46
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+      [58] aload_1 v1
+      [59] sipush 770
+      [62] sipush 771
+      [65] invokeinterface #42
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glBlendFunc (II)V]
+      [70] aload_1 v1
+      [71] sipush 3008
+      [74] invokeinterface #46
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glEnable (I)V]
+      [79] aload_1 v1
+      [80] sipush 516
+      [83] ldc #5
+        + Float [0.1]
+      [85] invokeinterface #41
+        + InterfaceMethodref [javax/microedition/khronos/opengles/GL10.glAlphaFunc (IF)V]
+      [90] aload_0 v0
+      [91] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [94] new #13
+        + Class [com/example/NiePaoPao/c]
+      [97] dup
+      [98] aload_0 v0
+      [99] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [102] aload_1 v1
+      [103] ldc #1
+        + Integer [2130837505]
+      [105] invokestatic #38
+        + Methodref [com/example/NiePaoPao/d.a (Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+      [108] invokespecial #36
+        + Methodref [com/example/NiePaoPao/c.<init> (I)V]
+      [111] putfield #27
+        + Fieldref [com/example/NiePaoPao/d.b Lcom/example/NiePaoPao/c;]
+      [114] aload_0 v0
+      [115] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [118] new #12
+        + Class [com/example/NiePaoPao/b]
+      [121] dup
+      [122] aload_0 v0
+      [123] getfield #33
+        + Fieldref [com/example/NiePaoPao/f.a Lcom/example/NiePaoPao/d;]
+      [126] aload_1 v1
+      [127] ldc #2
+        + Integer [2130837507]
+      [129] invokestatic #38
+        + Methodref [com/example/NiePaoPao/d.a (Lcom/example/NiePaoPao/d;Ljavax/microedition/khronos/opengles/GL10;I)I]
+      [132] invokespecial #34
+        + Methodref [com/example/NiePaoPao/b.<init> (I)V]
+      [135] putfield #26
+        + Fieldref [com/example/NiePaoPao/d.a Lcom/example/NiePaoPao/b;]
+      [138] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  - Method:       <init>(Lcom/example/NiePaoPao/d;Lcom/example/NiePaoPao/e;)V
+    Access flags: 0x1000
+      = synthetic f(com.example.NiePaoPao.d,com.example.NiePaoPao.e)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 6, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] invokespecial #39
+        + Methodref [com/example/NiePaoPao/f.<init> (Lcom/example/NiePaoPao/d;)V]
+      [5] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+

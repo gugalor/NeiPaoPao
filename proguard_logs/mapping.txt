@@ -1,0 +1,74 @@
+com.example.NiePaoPao.CrazyZombyConstent -> com.example.NiePaoPao.a:
+    int UNIT_SIZE -> a
+    int VIEW_WIDTH -> b
+    int VIEW_HEIGHT -> c
+    int REAL_WIDTH -> d
+    int REAL_HEIGHT -> e
+    int ADP_SIZE -> f
+    float screentRatio -> g
+    float translateRatio -> h
+    float denisty -> i
+    float widthPixel -> j
+    android.media.MediaPlayer mp -> k
+    int DELAY_MS -> l
+    int AUTOTIP_DELAY -> m
+    int MONSTER_APPEAR -> n
+    int MAX_TOKEN -> o
+    int MOVE_THRESDHOLDER -> p
+    int LIFE_NUM -> q
+    int LIFE_UP_NUM -> r
+    int LIFE_TIMEOUT -> s
+    int MAX_TIME -> t
+    int TIME_ADD -> u
+    int TIME_DEL -> v
+    int TIME_ADD_NUM -> w
+com.example.NiePaoPao.DrawAnimal -> com.example.NiePaoPao.b:
+    java.nio.IntBuffer mVertexBuffer -> d
+    java.nio.FloatBuffer mTextureBuffer -> e
+    int vCount -> a
+    int textureId -> b
+    float textureRatio -> c
+    void initVertexBuffer(int,int) -> a
+    void initTextureBuffer(int) -> a
+    void draw(javax.microedition.khronos.opengles.GL10,int,int,int) -> a
+com.example.NiePaoPao.DrawGrid -> com.example.NiePaoPao.c:
+    java.nio.IntBuffer mVertexBuffer -> d
+    java.nio.FloatBuffer mTextureBuffer -> e
+    int vCount -> a
+    int textureId -> b
+    float textureRatio -> c
+    void initVertexBuffer(int,int) -> a
+    void initTextureBuffer(int) -> a
+    void drawBox(javax.microedition.khronos.opengles.GL10,int,int,int) -> a
+    void draw(javax.microedition.khronos.opengles.GL10) -> a
+com.example.NiePaoPao.MyActivity -> com.example.NiePaoPao.MyActivity:
+    com.example.NiePaoPao.NiePaoPaoGLSurfaceView mGLSurfaceView -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void onStart() -> onStart
+    void onStop() -> onStop
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onDestroy() -> onDestroy
+com.example.NiePaoPao.NiePaoPaoGLSurfaceView -> com.example.NiePaoPao.d:
+    com.example.NiePaoPao.DrawAnimal drawAnimal -> a
+    com.example.NiePaoPao.DrawGrid drawGrid -> b
+    com.example.NiePaoPao.NiePaoPaoGLSurfaceView$SceneRenderer mRenderer -> l
+    android.content.Context mContext -> c
+    boolean m_bThreadRun -> d
+    boolean[][] istouch -> e
+    int mWidth -> f
+    int mHeight -> g
+    int mGridX -> h
+    int mGridY -> i
+    int mStep -> j
+    int mYStart -> k
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+    int initTexture(javax.microedition.khronos.opengles.GL10,int) -> a
+    void touchGameView(android.view.MotionEvent) -> a
+    int access$100(com.example.NiePaoPao.NiePaoPaoGLSurfaceView,javax.microedition.khronos.opengles.GL10,int) -> a
+com.example.NiePaoPao.NiePaoPaoGLSurfaceView$1 -> com.example.NiePaoPao.e:
+com.example.NiePaoPao.NiePaoPaoGLSurfaceView$SceneRenderer -> com.example.NiePaoPao.f:
+    com.example.NiePaoPao.NiePaoPaoGLSurfaceView this$0 -> a
+    void onDrawFrame(javax.microedition.khronos.opengles.GL10) -> onDrawFrame
+    void onSurfaceChanged(javax.microedition.khronos.opengles.GL10,int,int) -> onSurfaceChanged
+    void onSurfaceCreated(javax.microedition.khronos.opengles.GL10,javax.microedition.khronos.egl.EGLConfig) -> onSurfaceCreated
